@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>7CE3B6D6-DF75-462F-9330-7000DEB3E74D</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>7CE3B6D6-DF75-462F-9330-7000DEB3E74D.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>BUDDI project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>OK BOOMER</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug BUDDI</string>
+			<key>timeStartedRecording</key>
+			<real>601754257.59868503</real>
+			<key>timeStoppedRecording</key>
+			<real>601754353.44664097</real>
+			<key>title</key>
+			<string>Debug BUDDI</string>
+			<key>uniqueIdentifier</key>
+			<string>7CE3B6D6-DF75-462F-9330-7000DEB3E74D</string>
+		</dict>
+		<key>B742F496-2B74-4C74-9894-354D3D0AACD1</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>B742F496-2B74-4C74-9894-354D3D0AACD1.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>BUDDI project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>OK BOOMER</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug BUDDI</string>
+			<key>timeStartedRecording</key>
+			<real>601754356.30588603</real>
+			<key>timeStoppedRecording</key>
+			<real>601754426.97423196</real>
+			<key>title</key>
+			<string>Debug BUDDI</string>
+			<key>uniqueIdentifier</key>
+			<string>B742F496-2B74-4C74-9894-354D3D0AACD1</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

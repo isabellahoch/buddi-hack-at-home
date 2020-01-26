@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<string>MapKit</string>
+	<string>FirebaseCore</string>
+	<string>AudioUnit</string>
+	<string>WebKit</string>
+	<string>FirebaseStorage</string>
+	<string>FirebaseInAppMessaging</string>
+	<string>FirebaseCrashlytics</string>
+	<string>CoreLocation</string>
+	<string>CoreAudio</string>
+	<string>GameKit</string>
+	<string>FirebaseDatabase</string>
+	<string>Firebase</string>
+	<string>FirebaseFunctions</string>
+	<string>FirebaseMLVisionTextModel</string>
+	<string>FirebaseMLCommon</string>
+	<string>SafariServices</string>
+	<string>FirebaseMLModelInterpreter</string>
+	<string>AVFoundation</string>
+	<string>FirebaseMessaging</string>
+	<string>FirebaseCoreDiagnosticsInterop</string>
+	<string>GoogleMobileAds</string>
+	<string>ApiAI</string>
+	<string>WatchKit</string>
+	<string>FirebaseInstanceID</string>
+	<string>FirebaseMLVisionFaceModel</string>
+	<string>FirebaseMLNaturalLanguage</string>
+	<string>FirebaseAuthInterop</string>
+	<string>FirebaseAuth</string>
+	<string>FirebaseMLVisionLabelModel</string>
+	<string>AppKit</string>
+	<string>FirebasePerformance</string>
+	<string>FirebaseMLNLTranslate</string>
+	<string>Crashlytics</string>
+	<string>FirebaseMLVisionAutoML</string>
+	<string>netinet</string>
+	<string>CoreData</string>
+	<string>GoogleDataTransport</string>
+	<string>FirebaseMLNLSmartReply</string>
+	<string>GoogleUtilities</string>
+	<string>FirebaseRemoteConfig</string>
+	<string>CommonCrypto</string>
+	<string>FirebaseMLVision</string>
+	<string>FirebaseMLNLLanguageID</string>
+	<string>AudioToolbox</string>
+	<string>GTMSessionFetcher</string>
+	<string>SystemConfiguration</string>
+	<string>FirebaseAnalytics</string>
+	<string>EventKit</string>
+	<string>Security</string>
+	<string>FirebaseMLVisionObjectDetection</string>
+	<string>CoreGraphics</string>
+	<string>objc</string>
+	<string>FirebaseDynamicLinks</string>
+	<string>UIKit</string>
+	<string>Fabric</string>
+	<string>FirebaseMLVisionBarcodeModel</string>
+	<string>Foundation</string>
+	<string>MessageUI</string>
+	<string>sys</string>
+	<string>nanopb</string>
+	<string>FirebaseFirestore</string>
+</array>
+</plist>
