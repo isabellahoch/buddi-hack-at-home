@@ -1,0 +1,879 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "TableViewCell"
+provides-nominal:
+- "5BUDDI13TableViewCellC"
+provides-member:
+- ["5BUDDI13TableViewCellC", ""]
+provides-dynamic-lookup:
+- "awakeFromNib"
+- "gestureRecognizerShouldBegin"
+- "setSelected"
+depends-top-level:
+- !private "!"
+- !private "+"
+- !private "-"
+- !private "/"
+- !private "<"
+- !private "=="
+- !private ">"
+- "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- "CGPoint"
+- !private "CGRect"
+- "CastingPrecedence"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- !private "Selector"
+- !private "StringLiteralType"
+- "TableViewCell"
+- "UIGestureRecognizer"
+- "UIPanGestureRecognizer"
+- "UITableViewCell"
+- !private "UIView"
+- !private "fabs"
+depends-member:
+- ["So15CALayerDelegateP", "CGPoint"]
+- !private ["So15CALayerDelegateP", "CGRect"]
+- !private ["So15CALayerDelegateP", "Selector"]
+- !private ["So15CALayerDelegateP", "UIPanGestureRecognizer"]
+- !private ["So15CALayerDelegateP", "UIView"]
+- ["So15CALayerDelegateP", ""]
+- !private ["So15CALayerDelegateP", "addGestureRecognizer"]
+- !private ["So15CALayerDelegateP", "animate"]
+- !private ["So15CALayerDelegateP", "awakeFromNib"]
+- !private ["So15CALayerDelegateP", "bounds"]
+- !private ["So15CALayerDelegateP", "center"]
+- !private ["So15CALayerDelegateP", "deleteOnDragRelease"]
+- !private ["So15CALayerDelegateP", "fabs"]
+- !private ["So15CALayerDelegateP", "frame"]
+- !private ["So15CALayerDelegateP", "init"]
+- !private ["So15CALayerDelegateP", "originalCenter"]
+- !private ["So15CALayerDelegateP", "setSelected"]
+- !private ["So15CALayerDelegateP", "superview"]
+- ["So7CGPointV", "init"]
+- !private ["So7CGPointV", "x"]
+- !private ["So7CGPointV", "y"]
+- !private ["So6CGRectV", "init"]
+- !private ["So6CGRectV", "origin"]
+- !private ["So6CGRectV", "size"]
+- !private ["So6CGSizeV", "height"]
+- !private ["So6CGSizeV", "width"]
+- ["s7CVarArgP", "CGPoint"]
+- !private ["s7CVarArgP", "CGRect"]
+- !private ["s7CVarArgP", "Selector"]
+- !private ["s7CVarArgP", "UIPanGestureRecognizer"]
+- !private ["s7CVarArgP", "UIView"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "addGestureRecognizer"]
+- !private ["s7CVarArgP", "animate"]
+- !private ["s7CVarArgP", "awakeFromNib"]
+- !private ["s7CVarArgP", "bounds"]
+- !private ["s7CVarArgP", "center"]
+- !private ["s7CVarArgP", "delegate"]
+- !private ["s7CVarArgP", "deleteOnDragRelease"]
+- !private ["s7CVarArgP", "fabs"]
+- !private ["s7CVarArgP", "frame"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "originalCenter"]
+- !private ["s7CVarArgP", "setSelected"]
+- !private ["s7CVarArgP", "state"]
+- !private ["s7CVarArgP", "superview"]
+- !private ["s7CVarArgP", "translation"]
+- ["s28CustomDebugStringConvertibleP", "CGPoint"]
+- !private ["s28CustomDebugStringConvertibleP", "CGRect"]
+- !private ["s28CustomDebugStringConvertibleP", "Selector"]
+- !private ["s28CustomDebugStringConvertibleP", "UIPanGestureRecognizer"]
+- !private ["s28CustomDebugStringConvertibleP", "UIView"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "addGestureRecognizer"]
+- !private ["s28CustomDebugStringConvertibleP", "animate"]
+- !private ["s28CustomDebugStringConvertibleP", "awakeFromNib"]
+- !private ["s28CustomDebugStringConvertibleP", "bounds"]
+- !private ["s28CustomDebugStringConvertibleP", "center"]
+- !private ["s28CustomDebugStringConvertibleP", "delegate"]
+- !private ["s28CustomDebugStringConvertibleP", "deleteOnDragRelease"]
+- !private ["s28CustomDebugStringConvertibleP", "fabs"]
+- !private ["s28CustomDebugStringConvertibleP", "frame"]
+- !private ["s28CustomDebugStringConvertibleP", "height"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "origin"]
+- !private ["s28CustomDebugStringConvertibleP", "originalCenter"]
+- !private ["s28CustomDebugStringConvertibleP", "setSelected"]
+- !private ["s28CustomDebugStringConvertibleP", "size"]
+- !private ["s28CustomDebugStringConvertibleP", "state"]
+- !private ["s28CustomDebugStringConvertibleP", "superview"]
+- !private ["s28CustomDebugStringConvertibleP", "translation"]
+- !private ["s28CustomDebugStringConvertibleP", "width"]
+- !private ["s28CustomDebugStringConvertibleP", "x"]
+- !private ["s28CustomDebugStringConvertibleP", "y"]
+- !private ["s17CustomReflectableP", "height"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "origin"]
+- !private ["s17CustomReflectableP", "size"]
+- !private ["s17CustomReflectableP", "width"]
+- !private ["s17CustomReflectableP", "x"]
+- !private ["s17CustomReflectableP", "y"]
+- ["s23CustomStringConvertibleP", "CGPoint"]
+- !private ["s23CustomStringConvertibleP", "CGRect"]
+- !private ["s23CustomStringConvertibleP", "Selector"]
+- !private ["s23CustomStringConvertibleP", "UIPanGestureRecognizer"]
+- !private ["s23CustomStringConvertibleP", "UIView"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "addGestureRecognizer"]
+- !private ["s23CustomStringConvertibleP", "animate"]
+- !private ["s23CustomStringConvertibleP", "awakeFromNib"]
+- !private ["s23CustomStringConvertibleP", "bounds"]
+- !private ["s23CustomStringConvertibleP", "center"]
+- !private ["s23CustomStringConvertibleP", "delegate"]
+- !private ["s23CustomStringConvertibleP", "deleteOnDragRelease"]
+- !private ["s23CustomStringConvertibleP", "fabs"]
+- !private ["s23CustomStringConvertibleP", "frame"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "originalCenter"]
+- !private ["s23CustomStringConvertibleP", "setSelected"]
+- !private ["s23CustomStringConvertibleP", "state"]
+- !private ["s23CustomStringConvertibleP", "superview"]
+- !private ["s23CustomStringConvertibleP", "translation"]
+- !private ["Se", "height"]
+- ["Se", "init"]
+- !private ["Se", "origin"]
+- !private ["Se", "size"]
+- !private ["Se", "width"]
+- !private ["Se", "x"]
+- !private ["Se", "y"]
+- !private ["SE", "height"]
+- ["SE", "init"]
+- !private ["SE", "origin"]
+- !private ["SE", "size"]
+- !private ["SE", "width"]
+- !private ["SE", "x"]
+- !private ["SE", "y"]
+- ["SQ", "CGPoint"]
+- !private ["SQ", "CGRect"]
+- !private ["SQ", "Selector"]
+- !private ["SQ", "UIPanGestureRecognizer"]
+- !private ["SQ", "UIView"]
+- ["SQ", ""]
+- !private ["SQ", "addGestureRecognizer"]
+- !private ["SQ", "animate"]
+- !private ["SQ", "awakeFromNib"]
+- !private ["SQ", "began"]
+- !private ["SQ", "bounds"]
+- !private ["SQ", "center"]
+- !private ["SQ", "changed"]
+- !private ["SQ", "delegate"]
+- !private ["SQ", "deleteOnDragRelease"]
+- !private ["SQ", "ended"]
+- !private ["SQ", "fabs"]
+- !private ["SQ", "frame"]
+- !private ["SQ", "height"]
+- ["SQ", "init"]
+- !private ["SQ", "origin"]
+- !private ["SQ", "originalCenter"]
+- !private ["SQ", "setSelected"]
+- !private ["SQ", "size"]
+- !private ["SQ", "state"]
+- !private ["SQ", "superview"]
+- !private ["SQ", "translation"]
+- !private ["SQ", "width"]
+- !private ["SQ", "x"]
+- !private ["SQ", "y"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["SH", "CGPoint"]
+- !private ["SH", "CGRect"]
+- !private ["SH", "Selector"]
+- !private ["SH", "UIPanGestureRecognizer"]
+- !private ["SH", "UIView"]
+- ["SH", ""]
+- !private ["SH", "addGestureRecognizer"]
+- !private ["SH", "animate"]
+- !private ["SH", "awakeFromNib"]
+- !private ["SH", "began"]
+- !private ["SH", "bounds"]
+- !private ["SH", "center"]
+- !private ["SH", "changed"]
+- !private ["SH", "delegate"]
+- !private ["SH", "deleteOnDragRelease"]
+- !private ["SH", "ended"]
+- !private ["SH", "fabs"]
+- !private ["SH", "frame"]
+- !private ["SH", "init"]
+- !private ["SH", "originalCenter"]
+- !private ["SH", "setSelected"]
+- !private ["SH", "state"]
+- !private ["SH", "superview"]
+- !private ["SH", "translation"]
+- ["So8NSCodingP", "CGPoint"]
+- !private ["So8NSCodingP", "CGRect"]
+- !private ["So8NSCodingP", "Selector"]
+- !private ["So8NSCodingP", "UIPanGestureRecognizer"]
+- !private ["So8NSCodingP", "UIView"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "addGestureRecognizer"]
+- !private ["So8NSCodingP", "animate"]
+- !private ["So8NSCodingP", "awakeFromNib"]
+- !private ["So8NSCodingP", "bounds"]
+- !private ["So8NSCodingP", "center"]
+- !private ["So8NSCodingP", "deleteOnDragRelease"]
+- !private ["So8NSCodingP", "fabs"]
+- !private ["So8NSCodingP", "frame"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "originalCenter"]
+- !private ["So8NSCodingP", "setSelected"]
+- !private ["So8NSCodingP", "superview"]
+- ["So8NSObjectC", "Bool"]
+- ["So8NSObjectC", "CGPoint"]
+- !private ["So8NSObjectC", "CGRect"]
+- !private ["So8NSObjectC", "Selector"]
+- ["So8NSObjectC", "UIGestureRecognizer"]
+- ["So8NSObjectC", "UIPanGestureRecognizer"]
+- !private ["So8NSObjectC", "UIView"]
+- !private ["So8NSObjectC", "addGestureRecognizer"]
+- !private ["So8NSObjectC", "animate"]
+- ["So8NSObjectC", "awakeFromNib"]
+- !private ["So8NSObjectC", "bounds"]
+- !private ["So8NSObjectC", "center"]
+- !private ["So8NSObjectC", "delegate"]
+- ["So8NSObjectC", "deleteOnDragRelease"]
+- !private ["So8NSObjectC", "fabs"]
+- !private ["So8NSObjectC", "frame"]
+- ["So8NSObjectC", "gestureRecognizerShouldBegin"]
+- ["So8NSObjectC", "handlePan"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "originalCenter"]
+- ["So8NSObjectC", "setSelected"]
+- !private ["So8NSObjectC", "state"]
+- !private ["So8NSObjectC", "superview"]
+- !private ["So8NSObjectC", "translation"]
+- ["So8NSObjectP", "CGPoint"]
+- !private ["So8NSObjectP", "CGRect"]
+- !private ["So8NSObjectP", "Selector"]
+- !private ["So8NSObjectP", "UIPanGestureRecognizer"]
+- !private ["So8NSObjectP", "UIView"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "addGestureRecognizer"]
+- !private ["So8NSObjectP", "animate"]
+- !private ["So8NSObjectP", "awakeFromNib"]
+- !private ["So8NSObjectP", "bounds"]
+- !private ["So8NSObjectP", "center"]
+- !private ["So8NSObjectP", "delegate"]
+- !private ["So8NSObjectP", "deleteOnDragRelease"]
+- !private ["So8NSObjectP", "fabs"]
+- !private ["So8NSObjectP", "frame"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "originalCenter"]
+- !private ["So8NSObjectP", "setSelected"]
+- !private ["So8NSObjectP", "state"]
+- !private ["So8NSObjectP", "superview"]
+- !private ["So8NSObjectP", "translation"]
+- !private ["SY", "began"]
+- !private ["SY", "changed"]
+- !private ["SY", "ended"]
+- !private ["10ObjectiveC8SelectorV", "init"]
+- !private ["So24UIGestureRecognizerStateV", "began"]
+- !private ["So24UIGestureRecognizerStateV", "changed"]
+- !private ["So24UIGestureRecognizerStateV", "ended"]
+- ["5BUDDI13TableViewCellC", "Bool"]
+- ["5BUDDI13TableViewCellC", "CGPoint"]
+- !private ["5BUDDI13TableViewCellC", "CGRect"]
+- !private ["5BUDDI13TableViewCellC", "Selector"]
+- ["5BUDDI13TableViewCellC", "UIGestureRecognizer"]
+- ["5BUDDI13TableViewCellC", "UIPanGestureRecognizer"]
+- !private ["5BUDDI13TableViewCellC", "UIView"]
+- !private ["5BUDDI13TableViewCellC", "addGestureRecognizer"]
+- ["5BUDDI13TableViewCellC", "awakeFromNib"]
+- !private ["5BUDDI13TableViewCellC", "bounds"]
+- !private ["5BUDDI13TableViewCellC", "center"]
+- ["5BUDDI13TableViewCellC", "deinit"]
+- ["5BUDDI13TableViewCellC", "deleteOnDragRelease"]
+- !private ["5BUDDI13TableViewCellC", "fabs"]
+- !private ["5BUDDI13TableViewCellC", "frame"]
+- ["5BUDDI13TableViewCellC", "gestureRecognizerShouldBegin"]
+- ["5BUDDI13TableViewCellC", "handlePan"]
+- ["5BUDDI13TableViewCellC", "init"]
+- ["5BUDDI13TableViewCellC", "originalCenter"]
+- ["5BUDDI13TableViewCellC", "setSelected"]
+- !private ["5BUDDI13TableViewCellC", "superview"]
+- ["So29UIAccessibilityIdentificationP", "CGPoint"]
+- !private ["So29UIAccessibilityIdentificationP", "CGRect"]
+- !private ["So29UIAccessibilityIdentificationP", "Selector"]
+- !private ["So29UIAccessibilityIdentificationP", "UIPanGestureRecognizer"]
+- !private ["So29UIAccessibilityIdentificationP", "UIView"]
+- ["So29UIAccessibilityIdentificationP", ""]
+- !private ["So29UIAccessibilityIdentificationP", "addGestureRecognizer"]
+- !private ["So29UIAccessibilityIdentificationP", "animate"]
+- !private ["So29UIAccessibilityIdentificationP", "awakeFromNib"]
+- !private ["So29UIAccessibilityIdentificationP", "bounds"]
+- !private ["So29UIAccessibilityIdentificationP", "center"]
+- !private ["So29UIAccessibilityIdentificationP", "deleteOnDragRelease"]
+- !private ["So29UIAccessibilityIdentificationP", "fabs"]
+- !private ["So29UIAccessibilityIdentificationP", "frame"]
+- !private ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "originalCenter"]
+- !private ["So29UIAccessibilityIdentificationP", "setSelected"]
+- !private ["So29UIAccessibilityIdentificationP", "superview"]
+- ["So12UIAppearanceP", "CGPoint"]
+- !private ["So12UIAppearanceP", "CGRect"]
+- !private ["So12UIAppearanceP", "Selector"]
+- !private ["So12UIAppearanceP", "UIPanGestureRecognizer"]
+- !private ["So12UIAppearanceP", "UIView"]
+- ["So12UIAppearanceP", ""]
+- !private ["So12UIAppearanceP", "addGestureRecognizer"]
+- !private ["So12UIAppearanceP", "animate"]
+- !private ["So12UIAppearanceP", "awakeFromNib"]
+- !private ["So12UIAppearanceP", "bounds"]
+- !private ["So12UIAppearanceP", "center"]
+- !private ["So12UIAppearanceP", "deleteOnDragRelease"]
+- !private ["So12UIAppearanceP", "fabs"]
+- !private ["So12UIAppearanceP", "frame"]
+- !private ["So12UIAppearanceP", "init"]
+- !private ["So12UIAppearanceP", "originalCenter"]
+- !private ["So12UIAppearanceP", "setSelected"]
+- !private ["So12UIAppearanceP", "superview"]
+- ["So21UIAppearanceContainerP", "CGPoint"]
+- !private ["So21UIAppearanceContainerP", "CGRect"]
+- !private ["So21UIAppearanceContainerP", "Selector"]
+- !private ["So21UIAppearanceContainerP", "UIPanGestureRecognizer"]
+- !private ["So21UIAppearanceContainerP", "UIView"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So21UIAppearanceContainerP", "addGestureRecognizer"]
+- !private ["So21UIAppearanceContainerP", "animate"]
+- !private ["So21UIAppearanceContainerP", "awakeFromNib"]
+- !private ["So21UIAppearanceContainerP", "bounds"]
+- !private ["So21UIAppearanceContainerP", "center"]
+- !private ["So21UIAppearanceContainerP", "deleteOnDragRelease"]
+- !private ["So21UIAppearanceContainerP", "fabs"]
+- !private ["So21UIAppearanceContainerP", "frame"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "originalCenter"]
+- !private ["So21UIAppearanceContainerP", "setSelected"]
+- !private ["So21UIAppearanceContainerP", "superview"]
+- ["So17UICoordinateSpaceP", "CGPoint"]
+- !private ["So17UICoordinateSpaceP", "CGRect"]
+- !private ["So17UICoordinateSpaceP", "Selector"]
+- !private ["So17UICoordinateSpaceP", "UIPanGestureRecognizer"]
+- !private ["So17UICoordinateSpaceP", "UIView"]
+- ["So17UICoordinateSpaceP", ""]
+- !private ["So17UICoordinateSpaceP", "addGestureRecognizer"]
+- !private ["So17UICoordinateSpaceP", "animate"]
+- !private ["So17UICoordinateSpaceP", "awakeFromNib"]
+- !private ["So17UICoordinateSpaceP", "bounds"]
+- !private ["So17UICoordinateSpaceP", "center"]
+- !private ["So17UICoordinateSpaceP", "deleteOnDragRelease"]
+- !private ["So17UICoordinateSpaceP", "fabs"]
+- !private ["So17UICoordinateSpaceP", "frame"]
+- !private ["So17UICoordinateSpaceP", "init"]
+- !private ["So17UICoordinateSpaceP", "originalCenter"]
+- !private ["So17UICoordinateSpaceP", "setSelected"]
+- !private ["So17UICoordinateSpaceP", "superview"]
+- ["So13UIDynamicItemP", "CGPoint"]
+- !private ["So13UIDynamicItemP", "CGRect"]
+- !private ["So13UIDynamicItemP", "Selector"]
+- !private ["So13UIDynamicItemP", "UIPanGestureRecognizer"]
+- !private ["So13UIDynamicItemP", "UIView"]
+- ["So13UIDynamicItemP", ""]
+- !private ["So13UIDynamicItemP", "addGestureRecognizer"]
+- !private ["So13UIDynamicItemP", "animate"]
+- !private ["So13UIDynamicItemP", "awakeFromNib"]
+- !private ["So13UIDynamicItemP", "bounds"]
+- !private ["So13UIDynamicItemP", "center"]
+- !private ["So13UIDynamicItemP", "deleteOnDragRelease"]
+- !private ["So13UIDynamicItemP", "fabs"]
+- !private ["So13UIDynamicItemP", "frame"]
+- !private ["So13UIDynamicItemP", "init"]
+- !private ["So13UIDynamicItemP", "originalCenter"]
+- !private ["So13UIDynamicItemP", "setSelected"]
+- !private ["So13UIDynamicItemP", "superview"]
+- ["So18UIFocusEnvironmentP", "CGPoint"]
+- !private ["So18UIFocusEnvironmentP", "CGRect"]
+- !private ["So18UIFocusEnvironmentP", "Selector"]
+- !private ["So18UIFocusEnvironmentP", "UIPanGestureRecognizer"]
+- !private ["So18UIFocusEnvironmentP", "UIView"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "addGestureRecognizer"]
+- !private ["So18UIFocusEnvironmentP", "animate"]
+- !private ["So18UIFocusEnvironmentP", "awakeFromNib"]
+- !private ["So18UIFocusEnvironmentP", "bounds"]
+- !private ["So18UIFocusEnvironmentP", "center"]
+- !private ["So18UIFocusEnvironmentP", "deleteOnDragRelease"]
+- !private ["So18UIFocusEnvironmentP", "fabs"]
+- !private ["So18UIFocusEnvironmentP", "frame"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "originalCenter"]
+- !private ["So18UIFocusEnvironmentP", "setSelected"]
+- !private ["So18UIFocusEnvironmentP", "superview"]
+- ["So11UIFocusItemP", "CGPoint"]
+- !private ["So11UIFocusItemP", "CGRect"]
+- !private ["So11UIFocusItemP", "Selector"]
+- !private ["So11UIFocusItemP", "UIPanGestureRecognizer"]
+- !private ["So11UIFocusItemP", "UIView"]
+- ["So11UIFocusItemP", ""]
+- !private ["So11UIFocusItemP", "addGestureRecognizer"]
+- !private ["So11UIFocusItemP", "animate"]
+- !private ["So11UIFocusItemP", "awakeFromNib"]
+- !private ["So11UIFocusItemP", "bounds"]
+- !private ["So11UIFocusItemP", "center"]
+- !private ["So11UIFocusItemP", "deleteOnDragRelease"]
+- !private ["So11UIFocusItemP", "fabs"]
+- !private ["So11UIFocusItemP", "frame"]
+- !private ["So11UIFocusItemP", "init"]
+- !private ["So11UIFocusItemP", "originalCenter"]
+- !private ["So11UIFocusItemP", "setSelected"]
+- !private ["So11UIFocusItemP", "superview"]
+- ["So20UIFocusItemContainerP", "CGPoint"]
+- !private ["So20UIFocusItemContainerP", "CGRect"]
+- !private ["So20UIFocusItemContainerP", "Selector"]
+- !private ["So20UIFocusItemContainerP", "UIPanGestureRecognizer"]
+- !private ["So20UIFocusItemContainerP", "UIView"]
+- ["So20UIFocusItemContainerP", ""]
+- !private ["So20UIFocusItemContainerP", "addGestureRecognizer"]
+- !private ["So20UIFocusItemContainerP", "animate"]
+- !private ["So20UIFocusItemContainerP", "awakeFromNib"]
+- !private ["So20UIFocusItemContainerP", "bounds"]
+- !private ["So20UIFocusItemContainerP", "center"]
+- !private ["So20UIFocusItemContainerP", "deleteOnDragRelease"]
+- !private ["So20UIFocusItemContainerP", "fabs"]
+- !private ["So20UIFocusItemContainerP", "frame"]
+- !private ["So20UIFocusItemContainerP", "init"]
+- !private ["So20UIFocusItemContainerP", "originalCenter"]
+- !private ["So20UIFocusItemContainerP", "setSelected"]
+- !private ["So20UIFocusItemContainerP", "superview"]
+- !private ["So19UIGestureRecognizerC", "delegate"]
+- !private ["So19UIGestureRecognizerC", "init"]
+- !private ["So19UIGestureRecognizerC", "state"]
+- !private ["So19UIGestureRecognizerC", "translation"]
+- ["So27UIGestureRecognizerDelegateP", "CGPoint"]
+- !private ["So27UIGestureRecognizerDelegateP", "CGRect"]
+- !private ["So27UIGestureRecognizerDelegateP", "Selector"]
+- !private ["So27UIGestureRecognizerDelegateP", "UIPanGestureRecognizer"]
+- !private ["So27UIGestureRecognizerDelegateP", "UIView"]
+- ["So27UIGestureRecognizerDelegateP", ""]
+- !private ["So27UIGestureRecognizerDelegateP", "addGestureRecognizer"]
+- !private ["So27UIGestureRecognizerDelegateP", "awakeFromNib"]
+- !private ["So27UIGestureRecognizerDelegateP", "bounds"]
+- !private ["So27UIGestureRecognizerDelegateP", "center"]
+- !private ["So27UIGestureRecognizerDelegateP", "deleteOnDragRelease"]
+- !private ["So27UIGestureRecognizerDelegateP", "fabs"]
+- !private ["So27UIGestureRecognizerDelegateP", "frame"]
+- !private ["So27UIGestureRecognizerDelegateP", "init"]
+- !private ["So27UIGestureRecognizerDelegateP", "originalCenter"]
+- !private ["So27UIGestureRecognizerDelegateP", "setSelected"]
+- !private ["So27UIGestureRecognizerDelegateP", "superview"]
+- ["So24UILargeContentViewerItemP", "CGPoint"]
+- !private ["So24UILargeContentViewerItemP", "CGRect"]
+- !private ["So24UILargeContentViewerItemP", "Selector"]
+- !private ["So24UILargeContentViewerItemP", "UIPanGestureRecognizer"]
+- !private ["So24UILargeContentViewerItemP", "UIView"]
+- ["So24UILargeContentViewerItemP", ""]
+- !private ["So24UILargeContentViewerItemP", "addGestureRecognizer"]
+- !private ["So24UILargeContentViewerItemP", "animate"]
+- !private ["So24UILargeContentViewerItemP", "awakeFromNib"]
+- !private ["So24UILargeContentViewerItemP", "bounds"]
+- !private ["So24UILargeContentViewerItemP", "center"]
+- !private ["So24UILargeContentViewerItemP", "deleteOnDragRelease"]
+- !private ["So24UILargeContentViewerItemP", "fabs"]
+- !private ["So24UILargeContentViewerItemP", "frame"]
+- !private ["So24UILargeContentViewerItemP", "init"]
+- !private ["So24UILargeContentViewerItemP", "originalCenter"]
+- !private ["So24UILargeContentViewerItemP", "setSelected"]
+- !private ["So24UILargeContentViewerItemP", "superview"]
+- !private ["So22UIPanGestureRecognizerC", "delegate"]
+- !private ["So22UIPanGestureRecognizerC", "init"]
+- !private ["So22UIPanGestureRecognizerC", "state"]
+- !private ["So22UIPanGestureRecognizerC", "translation"]
+- ["So30UIPasteConfigurationSupportingP", "CGPoint"]
+- !private ["So30UIPasteConfigurationSupportingP", "CGRect"]
+- !private ["So30UIPasteConfigurationSupportingP", "Selector"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIPanGestureRecognizer"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIView"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "addGestureRecognizer"]
+- !private ["So30UIPasteConfigurationSupportingP", "animate"]
+- !private ["So30UIPasteConfigurationSupportingP", "awakeFromNib"]
+- !private ["So30UIPasteConfigurationSupportingP", "bounds"]
+- !private ["So30UIPasteConfigurationSupportingP", "center"]
+- !private ["So30UIPasteConfigurationSupportingP", "deleteOnDragRelease"]
+- !private ["So30UIPasteConfigurationSupportingP", "fabs"]
+- !private ["So30UIPasteConfigurationSupportingP", "frame"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "originalCenter"]
+- !private ["So30UIPasteConfigurationSupportingP", "setSelected"]
+- !private ["So30UIPasteConfigurationSupportingP", "superview"]
+- ["So11UIResponderC", "Bool"]
+- ["So11UIResponderC", "CGPoint"]
+- !private ["So11UIResponderC", "CGRect"]
+- !private ["So11UIResponderC", "Selector"]
+- ["So11UIResponderC", "UIGestureRecognizer"]
+- ["So11UIResponderC", "UIPanGestureRecognizer"]
+- !private ["So11UIResponderC", "UIView"]
+- !private ["So11UIResponderC", "addGestureRecognizer"]
+- !private ["So11UIResponderC", "animate"]
+- ["So11UIResponderC", "awakeFromNib"]
+- !private ["So11UIResponderC", "bounds"]
+- !private ["So11UIResponderC", "center"]
+- ["So11UIResponderC", "deleteOnDragRelease"]
+- !private ["So11UIResponderC", "fabs"]
+- !private ["So11UIResponderC", "frame"]
+- ["So11UIResponderC", "gestureRecognizerShouldBegin"]
+- ["So11UIResponderC", "handlePan"]
+- ["So11UIResponderC", "init"]
+- ["So11UIResponderC", "originalCenter"]
+- ["So11UIResponderC", "setSelected"]
+- !private ["So11UIResponderC", "superview"]
+- ["So30UIResponderStandardEditActionsP", "CGPoint"]
+- !private ["So30UIResponderStandardEditActionsP", "CGRect"]
+- !private ["So30UIResponderStandardEditActionsP", "Selector"]
+- !private ["So30UIResponderStandardEditActionsP", "UIPanGestureRecognizer"]
+- !private ["So30UIResponderStandardEditActionsP", "UIView"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So30UIResponderStandardEditActionsP", "addGestureRecognizer"]
+- !private ["So30UIResponderStandardEditActionsP", "animate"]
+- !private ["So30UIResponderStandardEditActionsP", "awakeFromNib"]
+- !private ["So30UIResponderStandardEditActionsP", "bounds"]
+- !private ["So30UIResponderStandardEditActionsP", "center"]
+- !private ["So30UIResponderStandardEditActionsP", "deleteOnDragRelease"]
+- !private ["So30UIResponderStandardEditActionsP", "fabs"]
+- !private ["So30UIResponderStandardEditActionsP", "frame"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "originalCenter"]
+- !private ["So30UIResponderStandardEditActionsP", "setSelected"]
+- !private ["So30UIResponderStandardEditActionsP", "superview"]
+- ["So15UITableViewCellC", "Bool"]
+- ["So15UITableViewCellC", "CGPoint"]
+- !private ["So15UITableViewCellC", "CGRect"]
+- !private ["So15UITableViewCellC", "Selector"]
+- ["So15UITableViewCellC", "UIGestureRecognizer"]
+- ["So15UITableViewCellC", "UIPanGestureRecognizer"]
+- !private ["So15UITableViewCellC", "UIView"]
+- ["So15UITableViewCellC", ""]
+- !private ["So15UITableViewCellC", "addGestureRecognizer"]
+- ["So15UITableViewCellC", "awakeFromNib"]
+- !private ["So15UITableViewCellC", "bounds"]
+- !private ["So15UITableViewCellC", "center"]
+- ["So15UITableViewCellC", "deleteOnDragRelease"]
+- !private ["So15UITableViewCellC", "fabs"]
+- !private ["So15UITableViewCellC", "frame"]
+- ["So15UITableViewCellC", "gestureRecognizerShouldBegin"]
+- ["So15UITableViewCellC", "handlePan"]
+- ["So15UITableViewCellC", "init"]
+- ["So15UITableViewCellC", "originalCenter"]
+- ["So15UITableViewCellC", "setSelected"]
+- !private ["So15UITableViewCellC", "superview"]
+- ["So18UITraitEnvironmentP", "CGPoint"]
+- !private ["So18UITraitEnvironmentP", "CGRect"]
+- !private ["So18UITraitEnvironmentP", "Selector"]
+- !private ["So18UITraitEnvironmentP", "UIPanGestureRecognizer"]
+- !private ["So18UITraitEnvironmentP", "UIView"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So18UITraitEnvironmentP", "addGestureRecognizer"]
+- !private ["So18UITraitEnvironmentP", "animate"]
+- !private ["So18UITraitEnvironmentP", "awakeFromNib"]
+- !private ["So18UITraitEnvironmentP", "bounds"]
+- !private ["So18UITraitEnvironmentP", "center"]
+- !private ["So18UITraitEnvironmentP", "deleteOnDragRelease"]
+- !private ["So18UITraitEnvironmentP", "fabs"]
+- !private ["So18UITraitEnvironmentP", "frame"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "originalCenter"]
+- !private ["So18UITraitEnvironmentP", "setSelected"]
+- !private ["So18UITraitEnvironmentP", "superview"]
+- ["So23UIUserActivityRestoringP", "CGPoint"]
+- !private ["So23UIUserActivityRestoringP", "CGRect"]
+- !private ["So23UIUserActivityRestoringP", "Selector"]
+- !private ["So23UIUserActivityRestoringP", "UIPanGestureRecognizer"]
+- !private ["So23UIUserActivityRestoringP", "UIView"]
+- ["So23UIUserActivityRestoringP", ""]
+- !private ["So23UIUserActivityRestoringP", "addGestureRecognizer"]
+- !private ["So23UIUserActivityRestoringP", "animate"]
+- !private ["So23UIUserActivityRestoringP", "awakeFromNib"]
+- !private ["So23UIUserActivityRestoringP", "bounds"]
+- !private ["So23UIUserActivityRestoringP", "center"]
+- !private ["So23UIUserActivityRestoringP", "deleteOnDragRelease"]
+- !private ["So23UIUserActivityRestoringP", "fabs"]
+- !private ["So23UIUserActivityRestoringP", "frame"]
+- !private ["So23UIUserActivityRestoringP", "init"]
+- !private ["So23UIUserActivityRestoringP", "originalCenter"]
+- !private ["So23UIUserActivityRestoringP", "setSelected"]
+- !private ["So23UIUserActivityRestoringP", "superview"]
+- ["So6UIViewC", "Bool"]
+- ["So6UIViewC", "CGPoint"]
+- !private ["So6UIViewC", "CGRect"]
+- !private ["So6UIViewC", "Selector"]
+- ["So6UIViewC", "UIGestureRecognizer"]
+- ["So6UIViewC", "UIPanGestureRecognizer"]
+- !private ["So6UIViewC", "UIView"]
+- !private ["So6UIViewC", "addGestureRecognizer"]
+- !private ["So6UIViewC", "animate"]
+- ["So6UIViewC", "awakeFromNib"]
+- !private ["So6UIViewC", "bounds"]
+- !private ["So6UIViewC", "center"]
+- ["So6UIViewC", "deleteOnDragRelease"]
+- !private ["So6UIViewC", "fabs"]
+- !private ["So6UIViewC", "frame"]
+- ["So6UIViewC", "gestureRecognizerShouldBegin"]
+- ["So6UIViewC", "handlePan"]
+- ["So6UIViewC", "init"]
+- ["So6UIViewC", "originalCenter"]
+- ["So6UIViewC", "setSelected"]
+- !private ["So6UIViewC", "superview"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "height"]
+- ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "origin"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "size"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "width"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "x"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "y"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "CGPoint"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CGRect"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Selector"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIPanGestureRecognizer"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIView"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addGestureRecognizer"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "animate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "awakeFromNib"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "bounds"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "center"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "delegate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "deleteOnDragRelease"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "fabs"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "frame"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "originalCenter"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setSelected"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "state"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "superview"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "translation"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "CGPoint"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "CGRect"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Selector"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UIPanGestureRecognizer"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UIView"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "addGestureRecognizer"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "animate"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "awakeFromNib"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "bounds"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "center"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "delegate"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "deleteOnDragRelease"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "fabs"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "frame"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "originalCenter"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "setSelected"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "state"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "superview"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "translation"]
+- !private ["s21_ObjectiveCBridgeableP", "height"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "origin"]
+- !private ["s21_ObjectiveCBridgeableP", "size"]
+- !private ["s21_ObjectiveCBridgeableP", "width"]
+- !private ["s21_ObjectiveCBridgeableP", "x"]
+- !private ["s21_ObjectiveCBridgeableP", "y"]
+- ["s38__DefaultCustomPlaygroundQuickLookableP", "CGPoint"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "CGRect"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "Selector"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "UIPanGestureRecognizer"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "UIView"]
+- ["s38__DefaultCustomPlaygroundQuickLookableP", ""]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "addGestureRecognizer"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "animate"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "awakeFromNib"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "bounds"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "center"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "deleteOnDragRelease"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "fabs"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "frame"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "init"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "originalCenter"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "setSelected"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "superview"]
+depends-nominal:
+- "So15CALayerDelegateP"
+- "So7CGPointV"
+- !private "So6CGRectV"
+- !private "So6CGSizeV"
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "Se"
+- "SE"
+- "SQ"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "SH"
+- "So8NSCodingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "SY"
+- !private "10ObjectiveC8SelectorV"
+- !private "So24UIGestureRecognizerStateV"
+- "5BUDDI13TableViewCellC"
+- "So29UIAccessibilityIdentificationP"
+- "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- "So17UICoordinateSpaceP"
+- "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- "So11UIFocusItemP"
+- "So20UIFocusItemContainerP"
+- !private "So19UIGestureRecognizerC"
+- "So27UIGestureRecognizerDelegateP"
+- "So24UILargeContentViewerItemP"
+- !private "So22UIPanGestureRecognizerC"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So15UITableViewCellC"
+- "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
+- "So6UIViewC"
+- "s30_CustomPlaygroundQuickLookableP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- "s21_ObjectiveCBridgeableP"
+- "s38__DefaultCustomPlaygroundQuickLookableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/ObjectiveC.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreMIDI.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreMedia.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreData.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/simd.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreImage.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/QuartzCore.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Dispatch.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Metal.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Darwin.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreLocation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Foundation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/AVFoundation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreFoundation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreAudio.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreGraphics.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Swift.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/UIKit.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/MapKit.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/SwiftOnoneSupport.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Combine.framework/Modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreMIDI.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreMedia.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreData.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/simd.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreLocation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/AVFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreAudio.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/MapKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/ApiAI/ApiAI.framework/Headers/ApiAI.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/ApiAI/ApiAI.framework/Headers/ApiAI-umbrella.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FirebaseCore-umbrella.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FirebaseAuth-umbrella.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/ApiAI/ApiAI.framework/Headers/AIResponseMetadata.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRUserMetadata.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthAPNSTokenType.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FirebaseCore.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/Pods/Firebase/CoreOnly/Sources/Firebase.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/ApiAI/ApiAI.framework/Headers/AIResponse.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/ApiAI/ApiAI.framework/Headers/AIRequest+AIMappedResponse.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthUIDelegate.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuth.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FirebaseAuth.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIROAuthCredential.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthCredential.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRPhoneAuthCredential.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRLoggerLevel.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FirebaseAuthVersion.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/ApiAI/ApiAI.framework/Headers/AIAudioFileConvertOperation.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/ApiAI/ApiAI.framework/Headers/AIConfiguration.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRConfiguration.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/ApiAI/ApiAI.framework/Headers/AIDefaultConfiguration.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/ApiAI/ApiAI.framework/Headers/AIVoiceRequestButton.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRUserInfo.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAdditionalUserInfo.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRApp.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIROAuthProvider.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRGitHubAuthProvider.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRFederatedAuthProvider.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRGoogleAuthProvider.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRPhoneAuthProvider.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRFacebookAuthProvider.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIREmailAuthProvider.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRGameCenterAuthProvider.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRTwitterAuthProvider.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRUser.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/ApiAI/ApiAI.framework/Headers/AIResponseParameter.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/ApiAI/ApiAI.framework/Headers/AINullabilityDefines.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRActionCodeSettings.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthSettings.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIROptions.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthErrors.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/ApiAI/ApiAI.framework/Headers/AIResponseConstants.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/ApiAI/ApiAI.framework/Headers/AIResponseStatus.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthDataResult.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/ApiAI/ApiAI.framework/Headers/AIResponseResult.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthTokenResult.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/ApiAI/ApiAI.framework/Headers/AIResponseFulfillment.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/ApiAI/ApiAI.framework/Headers/AIEvent.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/ApiAI/ApiAI.framework/Headers/AIRequest.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/ApiAI/ApiAI.framework/Headers/AIVoiceRequest.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/ApiAI/ApiAI.framework/Headers/AIVoiceFileRequest.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/ApiAI/ApiAI.framework/Headers/AIOriginalRequest.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/ApiAI/ApiAI.framework/Headers/AIUserEntitiesRequest.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/ApiAI/ApiAI.framework/Headers/AIEventRequest.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/ApiAI/ApiAI.framework/Headers/AITextRequest.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/ApiAI/ApiAI.framework/Headers/AIQueryRequest.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/ApiAI/ApiAI.framework/Headers/AIResponseContext.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/ApiAI/ApiAI.framework/Headers/AIRequestContext.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/ApiAI/ApiAI.framework/Headers/AIRequestEntry.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/ApiAI/ApiAI.framework/Headers/AIUserEntity.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/ApiAI/ApiAI.framework/Headers/AIRequestEntity.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/Pods/Firebase/CoreOnly/Sources/module.modulemap"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/ApiAI/ApiAI.framework/Modules/module.modulemap"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Modules/module.modulemap"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MessageUI.framework/Headers/MessageUI.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreAudioTypes.framework/Headers/CoreAudioTypes.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/WebKit.framework/Headers/WebKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/EventKit.framework/Headers/EventKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "c6e28a67ecdb23014d8c5a4bafe8c94b"

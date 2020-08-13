@@ -1,0 +1,621 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "CalendarService"
+provides-nominal:
+- "5BUDDI15CalendarServiceC"
+provides-member:
+- ["So16UIViewControllerC", ""]
+- ["5BUDDI15CalendarServiceC", ""]
+- ["So16UIViewControllerC", "hideKeyboardWhenTappedAround"]
+- ["So16UIViewControllerC", "dismissKeyboard"]
+provides-dynamic-lookup:
+- "dismissKeyboard"
+depends-top-level:
+- !private "&&"
+- !private "=="
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- "CalendarService"
+- !private "CastingPrecedence"
+- "Date"
+- !private "DispatchQueue"
+- !private "EKEvent"
+- !private "EKEventStore"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- "NSError"
+- "String"
+- !private "StringLiteralType"
+- !private "UIApplication"
+- !private "UITapGestureRecognizer"
+- "UIViewController"
+- !private "URL"
+- "Void"
+depends-member:
+- !private ["So15CALayerDelegateP", "addGestureRecognizer"]
+- !private ["So15CALayerDelegateP", "endEditing"]
+- !private ["s7CVarArgP", "UITapGestureRecognizer"]
+- !private ["s7CVarArgP", "UIViewController"]
+- !private ["s7CVarArgP", "addGestureRecognizer"]
+- !private ["s7CVarArgP", "async"]
+- !private ["s7CVarArgP", "calendar"]
+- !private ["s7CVarArgP", "cancelsTouchesInView"]
+- !private ["s7CVarArgP", "defaultCalendarForNewEvents"]
+- !private ["s7CVarArgP", "dismissKeyboard"]
+- !private ["s7CVarArgP", "endDate"]
+- !private ["s7CVarArgP", "endEditing"]
+- !private ["s7CVarArgP", "global"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "main"]
+- !private ["s7CVarArgP", "notes"]
+- !private ["s7CVarArgP", "open"]
+- !private ["s7CVarArgP", "requestAccess"]
+- !private ["s7CVarArgP", "save"]
+- !private ["s7CVarArgP", "shared"]
+- !private ["s7CVarArgP", "startDate"]
+- !private ["s7CVarArgP", "title"]
+- !private ["s7CVarArgP", "view"]
+- ["5BUDDI15CalendarServiceC", "Bool"]
+- ["5BUDDI15CalendarServiceC", "Date"]
+- !private ["5BUDDI15CalendarServiceC", "DispatchQueue"]
+- !private ["5BUDDI15CalendarServiceC", "EKEvent"]
+- !private ["5BUDDI15CalendarServiceC", "EKEventStore"]
+- ["5BUDDI15CalendarServiceC", "NSError"]
+- ["5BUDDI15CalendarServiceC", "String"]
+- !private ["5BUDDI15CalendarServiceC", "UIApplication"]
+- !private ["5BUDDI15CalendarServiceC", "URL"]
+- ["5BUDDI15CalendarServiceC", "Void"]
+- ["5BUDDI15CalendarServiceC", "addEventToCalendar"]
+- ["5BUDDI15CalendarServiceC", "init"]
+- ["5BUDDI15CalendarServiceC", "openCalendar"]
+- !private ["SL", "timeIntervalSinceReferenceDate"]
+- !private ["s28CustomDebugStringConvertibleP", "UITapGestureRecognizer"]
+- !private ["s28CustomDebugStringConvertibleP", "UIViewController"]
+- !private ["s28CustomDebugStringConvertibleP", "addGestureRecognizer"]
+- !private ["s28CustomDebugStringConvertibleP", "async"]
+- !private ["s28CustomDebugStringConvertibleP", "calendar"]
+- !private ["s28CustomDebugStringConvertibleP", "cancelsTouchesInView"]
+- !private ["s28CustomDebugStringConvertibleP", "defaultCalendarForNewEvents"]
+- !private ["s28CustomDebugStringConvertibleP", "dismissKeyboard"]
+- !private ["s28CustomDebugStringConvertibleP", "endDate"]
+- !private ["s28CustomDebugStringConvertibleP", "endEditing"]
+- !private ["s28CustomDebugStringConvertibleP", "global"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "main"]
+- !private ["s28CustomDebugStringConvertibleP", "notes"]
+- !private ["s28CustomDebugStringConvertibleP", "open"]
+- !private ["s28CustomDebugStringConvertibleP", "requestAccess"]
+- !private ["s28CustomDebugStringConvertibleP", "save"]
+- !private ["s28CustomDebugStringConvertibleP", "shared"]
+- !private ["s28CustomDebugStringConvertibleP", "startDate"]
+- !private ["s28CustomDebugStringConvertibleP", "timeIntervalSinceReferenceDate"]
+- !private ["s28CustomDebugStringConvertibleP", "title"]
+- !private ["s28CustomDebugStringConvertibleP", "view"]
+- !private ["s17CustomReflectableP", "addGestureRecognizer"]
+- !private ["s17CustomReflectableP", "endEditing"]
+- !private ["s17CustomReflectableP", "timeIntervalSinceReferenceDate"]
+- !private ["s23CustomStringConvertibleP", "UITapGestureRecognizer"]
+- !private ["s23CustomStringConvertibleP", "UIViewController"]
+- !private ["s23CustomStringConvertibleP", "addGestureRecognizer"]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "async"]
+- !private ["s23CustomStringConvertibleP", "calendar"]
+- !private ["s23CustomStringConvertibleP", "cancelsTouchesInView"]
+- !private ["s23CustomStringConvertibleP", "defaultCalendarForNewEvents"]
+- !private ["s23CustomStringConvertibleP", "dismissKeyboard"]
+- !private ["s23CustomStringConvertibleP", "endDate"]
+- !private ["s23CustomStringConvertibleP", "endEditing"]
+- !private ["s23CustomStringConvertibleP", "global"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "main"]
+- !private ["s23CustomStringConvertibleP", "notes"]
+- !private ["s23CustomStringConvertibleP", "open"]
+- !private ["s23CustomStringConvertibleP", "requestAccess"]
+- !private ["s23CustomStringConvertibleP", "save"]
+- !private ["s23CustomStringConvertibleP", "shared"]
+- !private ["s23CustomStringConvertibleP", "startDate"]
+- !private ["s23CustomStringConvertibleP", "timeIntervalSinceReferenceDate"]
+- !private ["s23CustomStringConvertibleP", "title"]
+- !private ["s23CustomStringConvertibleP", "view"]
+- !private ["10Foundation4DateV", "timeIntervalSinceReferenceDate"]
+- !private ["Se", "addGestureRecognizer"]
+- !private ["Se", "endEditing"]
+- !private ["Se", "init"]
+- !private ["Se", "timeIntervalSinceReferenceDate"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- !private ["So18OS_dispatch_objectC", "async"]
+- !private ["So18OS_dispatch_objectC", "global"]
+- !private ["So18OS_dispatch_objectC", "main"]
+- !private ["So17OS_dispatch_queueC", "async"]
+- !private ["So17OS_dispatch_queueC", "global"]
+- !private ["So17OS_dispatch_queueC", "main"]
+- !private ["So14EKCalendarItemC", "calendar"]
+- !private ["So14EKCalendarItemC", "endDate"]
+- !private ["So14EKCalendarItemC", "init"]
+- !private ["So14EKCalendarItemC", "notes"]
+- !private ["So14EKCalendarItemC", "startDate"]
+- !private ["So14EKCalendarItemC", "title"]
+- !private ["So12EKEntityTypeV", "event"]
+- !private ["So7EKEventC", "calendar"]
+- !private ["So7EKEventC", "endDate"]
+- !private ["So7EKEventC", "init"]
+- !private ["So7EKEventC", "notes"]
+- !private ["So7EKEventC", "startDate"]
+- !private ["So7EKEventC", "title"]
+- !private ["So12EKEventStoreC", "defaultCalendarForNewEvents"]
+- !private ["So12EKEventStoreC", "init"]
+- !private ["So12EKEventStoreC", "requestAccess"]
+- !private ["So12EKEventStoreC", "save"]
+- !private ["So8EKObjectC", "calendar"]
+- !private ["So8EKObjectC", "endDate"]
+- !private ["So8EKObjectC", "init"]
+- !private ["So8EKObjectC", "notes"]
+- !private ["So8EKObjectC", "startDate"]
+- !private ["So8EKObjectC", "title"]
+- !private ["So6EKSpanV", "thisEvent"]
+- !private ["SE", "addGestureRecognizer"]
+- !private ["SE", "endEditing"]
+- !private ["SE", "init"]
+- !private ["SE", "timeIntervalSinceReferenceDate"]
+- !private ["SQ", "UITapGestureRecognizer"]
+- !private ["SQ", "UIViewController"]
+- !private ["SQ", "addGestureRecognizer"]
+- !private ["SQ", "async"]
+- !private ["SQ", "background"]
+- !private ["SQ", "calendar"]
+- !private ["SQ", "cancelsTouchesInView"]
+- !private ["SQ", "defaultCalendarForNewEvents"]
+- !private ["SQ", "dismissKeyboard"]
+- !private ["SQ", "endDate"]
+- !private ["SQ", "endEditing"]
+- !private ["SQ", "event"]
+- !private ["SQ", "global"]
+- !private ["SQ", "init"]
+- !private ["SQ", "main"]
+- !private ["SQ", "notes"]
+- !private ["SQ", "open"]
+- !private ["SQ", "requestAccess"]
+- !private ["SQ", "save"]
+- !private ["SQ", "shared"]
+- !private ["SQ", "startDate"]
+- !private ["SQ", "thisEvent"]
+- !private ["SQ", "timeIntervalSinceReferenceDate"]
+- !private ["SQ", "title"]
+- !private ["SQ", "view"]
+- !private ["s23ExpressibleByNilLiteralP", "addGestureRecognizer"]
+- !private ["s23ExpressibleByNilLiteralP", "endEditing"]
+- !private ["SH", "UITapGestureRecognizer"]
+- !private ["SH", "UIViewController"]
+- !private ["SH", "addGestureRecognizer"]
+- !private ["SH", "async"]
+- !private ["SH", "background"]
+- !private ["SH", "calendar"]
+- !private ["SH", "cancelsTouchesInView"]
+- !private ["SH", "defaultCalendarForNewEvents"]
+- !private ["SH", "dismissKeyboard"]
+- !private ["SH", "endDate"]
+- !private ["SH", "endEditing"]
+- !private ["SH", "event"]
+- !private ["SH", "global"]
+- !private ["SH", "init"]
+- !private ["SH", "main"]
+- !private ["SH", "notes"]
+- !private ["SH", "open"]
+- !private ["SH", "requestAccess"]
+- !private ["SH", "save"]
+- !private ["SH", "shared"]
+- !private ["SH", "startDate"]
+- !private ["SH", "thisEvent"]
+- !private ["SH", "timeIntervalSinceReferenceDate"]
+- !private ["SH", "title"]
+- !private ["SH", "view"]
+- !private ["So8NSCodingP", "UITapGestureRecognizer"]
+- !private ["So8NSCodingP", "UIViewController"]
+- !private ["So8NSCodingP", "addGestureRecognizer"]
+- !private ["So8NSCodingP", "dismissKeyboard"]
+- !private ["So8NSCodingP", "endEditing"]
+- !private ["So8NSCodingP", "view"]
+- !private ["So26NSExtensionRequestHandlingP", "UITapGestureRecognizer"]
+- !private ["So26NSExtensionRequestHandlingP", "UIViewController"]
+- !private ["So26NSExtensionRequestHandlingP", "dismissKeyboard"]
+- !private ["So26NSExtensionRequestHandlingP", "view"]
+- !private ["So8NSObjectC", "UITapGestureRecognizer"]
+- !private ["So8NSObjectC", "UIViewController"]
+- !private ["So8NSObjectC", "addGestureRecognizer"]
+- !private ["So8NSObjectC", "async"]
+- !private ["So8NSObjectC", "calendar"]
+- !private ["So8NSObjectC", "cancelsTouchesInView"]
+- !private ["So8NSObjectC", "defaultCalendarForNewEvents"]
+- ["So8NSObjectC", "dismissKeyboard"]
+- !private ["So8NSObjectC", "endDate"]
+- !private ["So8NSObjectC", "endEditing"]
+- !private ["So8NSObjectC", "global"]
+- ["So8NSObjectC", "hideKeyboardWhenTappedAround"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "main"]
+- !private ["So8NSObjectC", "notes"]
+- !private ["So8NSObjectC", "open"]
+- !private ["So8NSObjectC", "requestAccess"]
+- !private ["So8NSObjectC", "save"]
+- !private ["So8NSObjectC", "shared"]
+- !private ["So8NSObjectC", "startDate"]
+- !private ["So8NSObjectC", "title"]
+- !private ["So8NSObjectC", "view"]
+- !private ["So8NSObjectP", "UITapGestureRecognizer"]
+- !private ["So8NSObjectP", "UIViewController"]
+- !private ["So8NSObjectP", "addGestureRecognizer"]
+- !private ["So8NSObjectP", "async"]
+- !private ["So8NSObjectP", "calendar"]
+- !private ["So8NSObjectP", "cancelsTouchesInView"]
+- !private ["So8NSObjectP", "defaultCalendarForNewEvents"]
+- !private ["So8NSObjectP", "dismissKeyboard"]
+- !private ["So8NSObjectP", "endDate"]
+- !private ["So8NSObjectP", "endEditing"]
+- !private ["So8NSObjectP", "global"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "main"]
+- !private ["So8NSObjectP", "notes"]
+- !private ["So8NSObjectP", "open"]
+- !private ["So8NSObjectP", "requestAccess"]
+- !private ["So8NSObjectP", "save"]
+- !private ["So8NSObjectP", "shared"]
+- !private ["So8NSObjectP", "startDate"]
+- !private ["So8NSObjectP", "title"]
+- !private ["So8NSObjectP", "view"]
+- !private ["So9OS_objectC", "async"]
+- !private ["So9OS_objectC", "global"]
+- !private ["So9OS_objectC", "main"]
+- !private ["Sq", "addGestureRecognizer"]
+- !private ["Sq", "endEditing"]
+- !private ["8Dispatch0A3QoSV0B6SClassO", "background"]
+- !private ["SY", "event"]
+- !private ["SY", "thisEvent"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["10Foundation20ReferenceConvertibleP", "timeIntervalSinceReferenceDate"]
+- !private ["7Combine9SchedulerP", "async"]
+- !private ["7Combine9SchedulerP", "global"]
+- !private ["7Combine9SchedulerP", "main"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["So29UIAccessibilityIdentificationP", "addGestureRecognizer"]
+- !private ["So29UIAccessibilityIdentificationP", "endEditing"]
+- !private ["So12UIAppearanceP", "addGestureRecognizer"]
+- !private ["So12UIAppearanceP", "endEditing"]
+- !private ["So21UIAppearanceContainerP", "UITapGestureRecognizer"]
+- !private ["So21UIAppearanceContainerP", "UIViewController"]
+- !private ["So21UIAppearanceContainerP", "addGestureRecognizer"]
+- !private ["So21UIAppearanceContainerP", "dismissKeyboard"]
+- !private ["So21UIAppearanceContainerP", "endEditing"]
+- !private ["So21UIAppearanceContainerP", "view"]
+- !private ["So13UIApplicationC", "open"]
+- !private ["So13UIApplicationC", "shared"]
+- !private ["So18UIContentContainerP", "UITapGestureRecognizer"]
+- !private ["So18UIContentContainerP", "UIViewController"]
+- !private ["So18UIContentContainerP", "dismissKeyboard"]
+- !private ["So18UIContentContainerP", "view"]
+- !private ["So17UICoordinateSpaceP", "addGestureRecognizer"]
+- !private ["So17UICoordinateSpaceP", "endEditing"]
+- !private ["So13UIDynamicItemP", "addGestureRecognizer"]
+- !private ["So13UIDynamicItemP", "endEditing"]
+- !private ["So18UIFocusEnvironmentP", "UITapGestureRecognizer"]
+- !private ["So18UIFocusEnvironmentP", "UIViewController"]
+- !private ["So18UIFocusEnvironmentP", "addGestureRecognizer"]
+- !private ["So18UIFocusEnvironmentP", "dismissKeyboard"]
+- !private ["So18UIFocusEnvironmentP", "endEditing"]
+- !private ["So18UIFocusEnvironmentP", "view"]
+- !private ["So11UIFocusItemP", "addGestureRecognizer"]
+- !private ["So11UIFocusItemP", "endEditing"]
+- !private ["So20UIFocusItemContainerP", "addGestureRecognizer"]
+- !private ["So20UIFocusItemContainerP", "endEditing"]
+- !private ["So19UIGestureRecognizerC", "cancelsTouchesInView"]
+- !private ["So19UIGestureRecognizerC", "init"]
+- !private ["So24UILargeContentViewerItemP", "addGestureRecognizer"]
+- !private ["So24UILargeContentViewerItemP", "endEditing"]
+- !private ["So30UIPasteConfigurationSupportingP", "UITapGestureRecognizer"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIViewController"]
+- !private ["So30UIPasteConfigurationSupportingP", "addGestureRecognizer"]
+- !private ["So30UIPasteConfigurationSupportingP", "dismissKeyboard"]
+- !private ["So30UIPasteConfigurationSupportingP", "endEditing"]
+- !private ["So30UIPasteConfigurationSupportingP", "open"]
+- !private ["So30UIPasteConfigurationSupportingP", "shared"]
+- !private ["So30UIPasteConfigurationSupportingP", "view"]
+- !private ["So11UIResponderC", "UITapGestureRecognizer"]
+- !private ["So11UIResponderC", "UIViewController"]
+- !private ["So11UIResponderC", "addGestureRecognizer"]
+- ["So11UIResponderC", "dismissKeyboard"]
+- !private ["So11UIResponderC", "endEditing"]
+- ["So11UIResponderC", "hideKeyboardWhenTappedAround"]
+- !private ["So11UIResponderC", "open"]
+- !private ["So11UIResponderC", "shared"]
+- !private ["So11UIResponderC", "view"]
+- !private ["So30UIResponderStandardEditActionsP", "UITapGestureRecognizer"]
+- !private ["So30UIResponderStandardEditActionsP", "UIViewController"]
+- !private ["So30UIResponderStandardEditActionsP", "addGestureRecognizer"]
+- !private ["So30UIResponderStandardEditActionsP", "dismissKeyboard"]
+- !private ["So30UIResponderStandardEditActionsP", "endEditing"]
+- !private ["So30UIResponderStandardEditActionsP", "open"]
+- !private ["So30UIResponderStandardEditActionsP", "shared"]
+- !private ["So30UIResponderStandardEditActionsP", "view"]
+- !private ["So16UIStateRestoringP", "UITapGestureRecognizer"]
+- !private ["So16UIStateRestoringP", "UIViewController"]
+- !private ["So16UIStateRestoringP", "dismissKeyboard"]
+- !private ["So16UIStateRestoringP", "view"]
+- !private ["So22UITapGestureRecognizerC", "cancelsTouchesInView"]
+- !private ["So22UITapGestureRecognizerC", "init"]
+- !private ["So18UITraitEnvironmentP", "UITapGestureRecognizer"]
+- !private ["So18UITraitEnvironmentP", "UIViewController"]
+- !private ["So18UITraitEnvironmentP", "addGestureRecognizer"]
+- !private ["So18UITraitEnvironmentP", "dismissKeyboard"]
+- !private ["So18UITraitEnvironmentP", "endEditing"]
+- !private ["So18UITraitEnvironmentP", "view"]
+- !private ["So23UIUserActivityRestoringP", "UITapGestureRecognizer"]
+- !private ["So23UIUserActivityRestoringP", "UIViewController"]
+- !private ["So23UIUserActivityRestoringP", "addGestureRecognizer"]
+- !private ["So23UIUserActivityRestoringP", "dismissKeyboard"]
+- !private ["So23UIUserActivityRestoringP", "endEditing"]
+- !private ["So23UIUserActivityRestoringP", "open"]
+- !private ["So23UIUserActivityRestoringP", "shared"]
+- !private ["So23UIUserActivityRestoringP", "view"]
+- !private ["So6UIViewC", "addGestureRecognizer"]
+- !private ["So6UIViewC", "endEditing"]
+- !private ["So16UIViewControllerC", "UITapGestureRecognizer"]
+- !private ["So16UIViewControllerC", "UIViewController"]
+- ["So16UIViewControllerC", "dismissKeyboard"]
+- ["So16UIViewControllerC", "hideKeyboardWhenTappedAround"]
+- !private ["So16UIViewControllerC", "view"]
+- !private ["10Foundation3URLV", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "timeIntervalSinceReferenceDate"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UITapGestureRecognizer"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIViewController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addGestureRecognizer"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "async"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "calendar"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "cancelsTouchesInView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "defaultCalendarForNewEvents"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dismissKeyboard"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "endDate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "endEditing"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "global"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "main"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "notes"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "open"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "requestAccess"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "save"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "shared"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "startDate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "title"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "view"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UITapGestureRecognizer"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UIViewController"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "addGestureRecognizer"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "async"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "calendar"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "cancelsTouchesInView"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "defaultCalendarForNewEvents"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "dismissKeyboard"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "endDate"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "endEditing"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "global"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "main"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "notes"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "open"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "requestAccess"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "save"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "shared"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "startDate"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "title"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "view"]
+- !private ["s21_ObjectiveCBridgeableP", "addGestureRecognizer"]
+- !private ["s21_ObjectiveCBridgeableP", "endEditing"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "timeIntervalSinceReferenceDate"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "addGestureRecognizer"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "endEditing"]
+depends-nominal:
+- !private "So15CALayerDelegateP"
+- !private "s7CVarArgP"
+- "5BUDDI15CalendarServiceC"
+- !private "SL"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "10Foundation4DateV"
+- !private "Se"
+- !private "s26DefaultStringInterpolationV"
+- !private "So18OS_dispatch_objectC"
+- !private "So17OS_dispatch_queueC"
+- !private "So14EKCalendarItemC"
+- !private "So12EKEntityTypeV"
+- !private "So7EKEventC"
+- !private "So12EKEventStoreC"
+- !private "So8EKObjectC"
+- !private "So6EKSpanV"
+- !private "SE"
+- !private "SQ"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "SH"
+- !private "So8NSCodingP"
+- !private "So26NSExtensionRequestHandlingP"
+- "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "So9OS_objectC"
+- !private "Sq"
+- !private "8Dispatch0A3QoSV0B6SClassO"
+- !private "SY"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "7Combine9SchedulerP"
+- !private "s27StringInterpolationProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- !private "So21UIAppearanceContainerP"
+- !private "So13UIApplicationC"
+- !private "So18UIContentContainerP"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- !private "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So20UIFocusItemContainerP"
+- !private "So19UIGestureRecognizerC"
+- !private "So24UILargeContentViewerItemP"
+- !private "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- !private "So30UIResponderStandardEditActionsP"
+- !private "So16UIStateRestoringP"
+- !private "So22UITapGestureRecognizerC"
+- !private "So18UITraitEnvironmentP"
+- !private "So23UIUserActivityRestoringP"
+- !private "So6UIViewC"
+- "So16UIViewControllerC"
+- !private "10Foundation3URLV"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s34_ExpressibleByFileReferenceLiteralP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s38__DefaultCustomPlaygroundQuickLookableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/ObjectiveC.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreMIDI.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreMedia.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreData.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/simd.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreImage.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/QuartzCore.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Dispatch.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Metal.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Darwin.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreLocation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Foundation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/AVFoundation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreFoundation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreAudio.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreGraphics.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Swift.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/UIKit.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/MapKit.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/SwiftOnoneSupport.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Combine.framework/Modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreMIDI.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreMedia.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreData.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/simd.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreLocation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/AVFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreAudio.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/MapKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/ApiAI/ApiAI.framework/Headers/ApiAI.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/ApiAI/ApiAI.framework/Headers/ApiAI-umbrella.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FirebaseCore-umbrella.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FirebaseAuth-umbrella.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/ApiAI/ApiAI.framework/Headers/AIResponseMetadata.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRUserMetadata.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthAPNSTokenType.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FirebaseCore.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/Pods/Firebase/CoreOnly/Sources/Firebase.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/ApiAI/ApiAI.framework/Headers/AIResponse.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/ApiAI/ApiAI.framework/Headers/AIRequest+AIMappedResponse.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthUIDelegate.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuth.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FirebaseAuth.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIROAuthCredential.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthCredential.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRPhoneAuthCredential.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRLoggerLevel.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FirebaseAuthVersion.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/ApiAI/ApiAI.framework/Headers/AIAudioFileConvertOperation.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/ApiAI/ApiAI.framework/Headers/AIConfiguration.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRConfiguration.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/ApiAI/ApiAI.framework/Headers/AIDefaultConfiguration.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/ApiAI/ApiAI.framework/Headers/AIVoiceRequestButton.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRUserInfo.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAdditionalUserInfo.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRApp.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIROAuthProvider.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRGitHubAuthProvider.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRFederatedAuthProvider.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRGoogleAuthProvider.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRPhoneAuthProvider.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRFacebookAuthProvider.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIREmailAuthProvider.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRGameCenterAuthProvider.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRTwitterAuthProvider.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRUser.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/ApiAI/ApiAI.framework/Headers/AIResponseParameter.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/ApiAI/ApiAI.framework/Headers/AINullabilityDefines.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRActionCodeSettings.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthSettings.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIROptions.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthErrors.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/ApiAI/ApiAI.framework/Headers/AIResponseConstants.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/ApiAI/ApiAI.framework/Headers/AIResponseStatus.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthDataResult.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/ApiAI/ApiAI.framework/Headers/AIResponseResult.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthTokenResult.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/ApiAI/ApiAI.framework/Headers/AIResponseFulfillment.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/ApiAI/ApiAI.framework/Headers/AIEvent.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/ApiAI/ApiAI.framework/Headers/AIRequest.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/ApiAI/ApiAI.framework/Headers/AIVoiceRequest.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/ApiAI/ApiAI.framework/Headers/AIVoiceFileRequest.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/ApiAI/ApiAI.framework/Headers/AIOriginalRequest.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/ApiAI/ApiAI.framework/Headers/AIUserEntitiesRequest.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/ApiAI/ApiAI.framework/Headers/AIEventRequest.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/ApiAI/ApiAI.framework/Headers/AITextRequest.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/ApiAI/ApiAI.framework/Headers/AIQueryRequest.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/ApiAI/ApiAI.framework/Headers/AIResponseContext.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/ApiAI/ApiAI.framework/Headers/AIRequestContext.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/ApiAI/ApiAI.framework/Headers/AIRequestEntry.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/ApiAI/ApiAI.framework/Headers/AIUserEntity.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/ApiAI/ApiAI.framework/Headers/AIRequestEntity.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/Pods/Firebase/CoreOnly/Sources/module.modulemap"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/ApiAI/ApiAI.framework/Modules/module.modulemap"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Modules/module.modulemap"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MessageUI.framework/Headers/MessageUI.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreAudioTypes.framework/Headers/CoreAudioTypes.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/WebKit.framework/Headers/WebKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/EventKit.framework/Headers/EventKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "34bf093de94826d29e7bc5e16ac58ac5"

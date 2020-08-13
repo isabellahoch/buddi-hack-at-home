@@ -49,10 +49,10 @@ class HomeViewController: UIViewController, UITableViewDataSource, UITableViewDe
             return
         }
         toDoItems.append(ToDoItem(text: "feed the cat"))
-        toDoItems.append(ToDoItem(text: "buy groceries"))
+//        toDoItems.append(ToDoItem(text: "buy groceries"))
         toDoItems.append(ToDoItem(text: "water the plants"))
         toDoItems.append(ToDoItem(text: "walk the dog"))
-        toDoItems.append(ToDoItem(text: "get a hair cut"))
+//        toDoItems.append(ToDoItem(text: "get a hair cut"))
         toDoItems.append(ToDoItem(text: "call your niece"))
         
         tableView.dataSource = self

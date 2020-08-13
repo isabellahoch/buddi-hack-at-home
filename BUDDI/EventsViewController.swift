@@ -23,7 +23,9 @@ class EventsViewController: UIViewController, WKNavigationDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let url = URL(string: "https://www.google.com/search?q=events+for+seniors+near+me&ibp=htl;events&rciv=evn&sxsrf=ACYBGNQ-VnWmAdslHI22_CIkFCumLILY9w:1580017718691#fpstate=tldetail")!
+//        let url = URL(string: "https://www.google.com/search?q=events+for+seniors+near+me&ibp=htl;events&rciv=evn&sxsrf=ACYBGNQ-VnWmAdslHI22_CIkFCumLILY9w:1580017718691#fpstate=tldetail")!
+        let url = URL(string: "https://docs.google.com/document/d/e/2PACX-1vT8SP66fdh-THfYT1gCV4Kj9hWQ3hDJqZnNpfdGjywIwExTFHY0aVYMbUynE3IWSOd1gV527AGDwu4B/pub?embedded=true")!
+        
         webView.load(URLRequest(url: url))
         webView.allowsBackForwardNavigationGestures = true
 

@@ -1,0 +1,43 @@
+dependencies: \
+  /Users/isabellahochschild/Documents/XCODE/BUDDI/Pods/FirebaseAuth/Firebase/Auth/Source/AuthProvider/Phone/FIRPhoneAuthProvider.m \
+  /Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/module.modulemap \
+  /Users/isabellahochschild/Documents/XCODE/BUDDI/Pods/FirebaseAuth/Firebase/Auth/Source/Public/FIRPhoneAuthProvider.h \
+  /Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/FirebaseCore.build/module.modulemap \
+  /Users/isabellahochschild/Documents/XCODE/BUDDI/Pods/FirebaseCore/FirebaseCore/Sources/Private/FIRLogger.h \
+  /Users/isabellahochschild/Documents/XCODE/BUDDI/Pods/FirebaseCore/FirebaseCore/Sources/Public/FIROptions.h \
+  /Users/isabellahochschild/Documents/XCODE/BUDDI/Pods/FirebaseCore/FirebaseCore/Sources/Public/FirebaseCore.h \
+  /Users/isabellahochschild/Documents/XCODE/BUDDI/Pods/FirebaseCore/FirebaseCore/Sources/Public/FIRLoggerLevel.h \
+  /Users/isabellahochschild/Documents/XCODE/BUDDI/Pods/FirebaseCore/FirebaseCore/Sources/Public/FIRConfiguration.h \
+  /Users/isabellahochschild/Documents/XCODE/BUDDI/Pods/FirebaseCore/FirebaseCore/Sources/Public/FIRApp.h \
+  /Users/isabellahochschild/Documents/XCODE/BUDDI/Pods/Target\ Support\ Files/FirebaseCore/FirebaseCore-umbrella.h \
+  /Users/isabellahochschild/Documents/XCODE/BUDDI/Pods/FirebaseAuth/Firebase/Auth/Source/AuthProvider/Phone/FIRPhoneAuthCredential_Internal.h \
+  /Users/isabellahochschild/Documents/XCODE/BUDDI/Pods/FirebaseAuth/Firebase/Auth/Source/Public/FIRPhoneAuthCredential.h \
+  /Users/isabellahochschild/Documents/XCODE/BUDDI/Pods/FirebaseAuth/Firebase/Auth/Source/Public/FIRAuthCredential.h \
+  /Users/isabellahochschild/Documents/XCODE/BUDDI/Pods/FirebaseAuth/Firebase/Auth/Source/SystemService/FIRAuthAPNSToken.h \
+  /Users/isabellahochschild/Documents/XCODE/BUDDI/Pods/FirebaseAuth/Firebase/Auth/Source/Public/FIRAuthAPNSTokenType.h \
+  /Users/isabellahochschild/Documents/XCODE/BUDDI/Pods/FirebaseAuth/Firebase/Auth/Source/SystemService/FIRAuthAPNSTokenManager.h \
+  /Users/isabellahochschild/Documents/XCODE/BUDDI/Pods/FirebaseAuth/Firebase/Auth/Source/SystemService/FIRAuthAppCredential.h \
+  /Users/isabellahochschild/Documents/XCODE/BUDDI/Pods/FirebaseAuth/Firebase/Auth/Source/SystemService/FIRAuthAppCredentialManager.h \
+  /Users/isabellahochschild/Documents/XCODE/BUDDI/Pods/FirebaseAuth/Firebase/Auth/Source/Storage/FIRAuthKeychainServices.h \
+  /Users/isabellahochschild/Documents/XCODE/BUDDI/Pods/FirebaseAuth/Firebase/Auth/Source/Auth/FIRAuthGlobalWorkQueue.h \
+  /Users/isabellahochschild/Documents/XCODE/BUDDI/Pods/FirebaseAuth/Firebase/Auth/Source/Auth/FIRAuth_Internal.h \
+  /Users/isabellahochschild/Documents/XCODE/BUDDI/Pods/FirebaseAuth/Firebase/Auth/Source/Public/FIRAuth.h \
+  /Users/isabellahochschild/Documents/XCODE/BUDDI/Pods/FirebaseAuth/Firebase/Auth/Source/Public/FIRAuthErrors.h \
+  /Users/isabellahochschild/Documents/XCODE/BUDDI/Pods/Headers/Public/FirebaseAuthInterop/FIRAuthInterop.h \
+  /Users/isabellahochschild/Documents/XCODE/BUDDI/Pods/FirebaseAuth/Firebase/Auth/Source/Utilities/FIRAuthURLPresenter.h \
+  /Users/isabellahochschild/Documents/XCODE/BUDDI/Pods/FirebaseAuth/Firebase/Auth/Source/SystemService/FIRAuthNotificationManager.h \
+  /Users/isabellahochschild/Documents/XCODE/BUDDI/Pods/FirebaseAuth/Firebase/Auth/Source/Utilities/FIRAuthErrorUtils.h \
+  /Users/isabellahochschild/Documents/XCODE/BUDDI/Pods/FirebaseAuth/Firebase/Auth/Source/Backend/FIRAuthBackend.h \
+  /Users/isabellahochschild/Documents/XCODE/BUDDI/Pods/FirebaseAuth/Firebase/Auth/Source/Public/FIRAuthSettings.h \
+  /Users/isabellahochschild/Documents/XCODE/BUDDI/Pods/FirebaseAuth/Firebase/Auth/Source/Utilities/FIRAuthWebUtils.h \
+  /Users/isabellahochschild/Documents/XCODE/BUDDI/Pods/FirebaseAuth/Firebase/Auth/Source/Public/FirebaseAuthVersion.h \
+  /Users/isabellahochschild/Documents/XCODE/BUDDI/Pods/FirebaseAuth/Firebase/Auth/Source/Backend/RPC/FIRGetProjectConfigRequest.h \
+  /Users/isabellahochschild/Documents/XCODE/BUDDI/Pods/FirebaseAuth/Firebase/Auth/Source/Backend/FIRIdentityToolkitRequest.h \
+  /Users/isabellahochschild/Documents/XCODE/BUDDI/Pods/FirebaseAuth/Firebase/Auth/Source/Backend/FIRAuthRequestConfiguration.h \
+  /Users/isabellahochschild/Documents/XCODE/BUDDI/Pods/FirebaseAuth/Firebase/Auth/Source/Backend/FIRAuthRPCRequest.h \
+  /Users/isabellahochschild/Documents/XCODE/BUDDI/Pods/FirebaseAuth/Firebase/Auth/Source/Backend/RPC/FIRGetProjectConfigResponse.h \
+  /Users/isabellahochschild/Documents/XCODE/BUDDI/Pods/FirebaseAuth/Firebase/Auth/Source/Backend/FIRAuthRPCResponse.h \
+  /Users/isabellahochschild/Documents/XCODE/BUDDI/Pods/FirebaseAuth/Firebase/Auth/Source/Backend/RPC/FIRSendVerificationCodeRequest.h \
+  /Users/isabellahochschild/Documents/XCODE/BUDDI/Pods/FirebaseAuth/Firebase/Auth/Source/Backend/RPC/FIRSendVerificationCodeResponse.h \
+  /Users/isabellahochschild/Documents/XCODE/BUDDI/Pods/FirebaseAuth/Firebase/Auth/Source/Backend/RPC/FIRVerifyClientRequest.h \
+  /Users/isabellahochschild/Documents/XCODE/BUDDI/Pods/FirebaseAuth/Firebase/Auth/Source/Backend/RPC/FIRVerifyClientResponse.h

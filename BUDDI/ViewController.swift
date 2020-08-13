@@ -68,7 +68,12 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
             self.label.text = text
             self.messages.append(ChatMessage(m: text, a:"me", c:.gray))
             self.messages.append(ChatMessage(m: " ", a:"spacing", c:.white))
+//            self.tableView.setContentOffset(CGPoint(x: 0, y: CGFloat.greatestFiniteMagnitude), animated: false)
             self.tableView.reloadData()
+            if (self.messages.count > 5) {
+                let indexPath = NSIndexPath(item: self.messages.count-1, section: 0)
+                self.tableView.scrollToRow(at: indexPath as IndexPath, at: UITableView.ScrollPosition.bottom, animated: true)
+            }
             if(text.contains("OK, beginning navigation to")) {
                 print("redirecting...")
                 let start = text.index(text.startIndex, offsetBy: 27)
@@ -107,6 +112,32 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         }, completion: nil)
     }
     
+    @IBAction func sendMessageFromKeyBoard() {
+        let request = ApiAI.shared().textRequest()
+        
+        if let text = self.messageField.text, text != "" {
+            print(text)
+            request?.query = text
+            messages.append(ChatMessage(m: text, a:"you", c:UIColor(red: 198/255, green: 230/255, blue: 199/255, alpha: 1) ))
+            self.messages.append(ChatMessage(m: " ", a:"spacing", c:.white))
+            tableView.reloadData()
+        } else {
+            return
+        }
+        
+        request?.setMappedCompletionBlockSuccess({ (request, response) in
+            let response = response as! AIResponse
+            if let textResponse = response.result.fulfillment.speech {
+                self.speechAndText(text: textResponse)
+            }
+        }, failure: { (request, error) in
+            print(error!)
+        })
+        
+        ApiAI.shared().enqueue(request)
+        messageField.text = ""
+    }
+    
     
     @IBAction func sendMessage(_ sender: Any) {
         let request = ApiAI.shared().textRequest()
@@ -134,8 +165,8 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         messageField.text = ""
     }
     
-    
-    
+    @IBOutlet weak var keyboardHeightLayoutConstraint: NSLayoutConstraint!
+
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
@@ -149,6 +180,66 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
 
         tableView.rowHeight = 50.0
         
+        NotificationCenter.default.addObserver(self,
+        selector: #selector(self.keyboardNotification(notification:)),
+        name: UIResponder.keyboardWillChangeFrameNotification,
+        object: nil)
+        
+        tableView.setContentOffset(CGPoint(x: 0, y: CGFloat.greatestFiniteMagnitude), animated: false)
+        
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+//        let indexPath = NSIndexPath(item: messages.count-1, section: 0)
+//        tableView.scrollToRow(at: indexPath as IndexPath, at: UITableView.ScrollPosition.bottom, animated: false)
+    }
+    
+    
+    
+    deinit {
+        NotificationCenter.default.removeObserver(self)
+    }
+
+    @objc func keyboardNotification(notification: NSNotification) {
+        if let userInfo = notification.userInfo {
+            let endFrame = (userInfo[UIResponder.keyboardFrameEndUserInfoKey] as? NSValue)?.cgRectValue
+            var endFrameY = endFrame?.origin.y ?? 0
+//            endFrameY = endFrameY - 50
+            let duration:TimeInterval = (userInfo[UIResponder.keyboardAnimationDurationUserInfoKey] as? NSNumber)?.doubleValue ?? 0
+            let animationCurveRawNSN = userInfo[UIResponder.keyboardAnimationCurveUserInfoKey] as? NSNumber
+            let animationCurveRaw = animationCurveRawNSN?.uintValue ?? UIView.AnimationOptions.curveEaseInOut.rawValue
+            let animationCurve:UIView.AnimationOptions = UIView.AnimationOptions(rawValue: animationCurveRaw)
+            if endFrameY >= UIScreen.main.bounds.size.height {
+                self.keyboardHeightLayoutConstraint?.constant = 0.0
+                
+                    if let keyboardSize = (notification.userInfo?[UIResponder.keyboardFrameBeginUserInfoKey] as? NSValue)?.cgRectValue {
+                        // adjust table view height
+                        var tableViewFrame = tableView.frame;
+                        tableViewFrame.size.height += 280.0;
+                        tableView.frame = tableViewFrame;
+//                        tableView.contentInset = UIEdgeInsets(top: 216.0, left: 0, bottom: 0, right: 0);
+                        tableView.contentInset = UIEdgeInsets(top: 0.0, left: 0, bottom: 0, right: 0);
+                    }
+            } else {
+                var newConstraint = endFrame?.size.height ?? 0.0
+                newConstraint = newConstraint - 60
+                self.keyboardHeightLayoutConstraint?.constant =  newConstraint
+                
+                if let keyboardSize = (notification.userInfo?[UIResponder.keyboardFrameBeginUserInfoKey] as? NSValue)?.cgRectValue {
+                    // adjust table view height
+                    var tableViewFrame = tableView.frame;
+                    tableViewFrame.size.height -= 216.0;
+                    tableView.frame = tableViewFrame;
+                    tableView.contentInset = UIEdgeInsets(top: 0.0, left: 0, bottom: 0.0, right: 0);
+                }
+            }
+            UIView.animate(withDuration: duration,
+                                       delay: TimeInterval(0),
+                                       options: animationCurve,
+                                       animations: { self.view.layoutIfNeeded() },
+                                       completion: nil)
+        }
     }
     
     
