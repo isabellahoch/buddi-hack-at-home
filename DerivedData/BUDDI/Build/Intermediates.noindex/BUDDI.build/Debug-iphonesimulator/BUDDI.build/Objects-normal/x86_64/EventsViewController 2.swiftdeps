@@ -1,0 +1,533 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "EventsViewController"
+provides-nominal:
+- "5BUDDI20EventsViewControllerC"
+provides-member:
+- ["5BUDDI20EventsViewControllerC", ""]
+provides-dynamic-lookup:
+- "loadView"
+- "viewDidLoad"
+- "webView"
+depends-top-level:
+- "AssignmentPrecedence"
+- !private "BooleanLiteralType"
+- "EventsViewController"
+- !private "StringLiteralType"
+- "UIViewController"
+- !private "URL"
+- !private "URLRequest"
+- "WKNavigationDelegate"
+- "WKWebView"
+depends-member:
+- !private ["So15CALayerDelegateP", "allowsBackForwardNavigationGestures"]
+- !private ["So15CALayerDelegateP", "init"]
+- !private ["So15CALayerDelegateP", "load"]
+- !private ["So15CALayerDelegateP", "navigationDelegate"]
+- !private ["s7CVarArgP", "URL"]
+- !private ["s7CVarArgP", "URLRequest"]
+- !private ["s7CVarArgP", "WKWebView"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "allowsBackForwardNavigationGestures"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "load"]
+- !private ["s7CVarArgP", "navigationDelegate"]
+- !private ["s7CVarArgP", "view"]
+- !private ["s7CVarArgP", "viewDidLoad"]
+- ["s7CVarArgP", "webView"]
+- ["s7CVarArgP", "webViewWebContentProcessDidTerminate"]
+- !private ["s28CustomDebugStringConvertibleP", "URL"]
+- !private ["s28CustomDebugStringConvertibleP", "URLRequest"]
+- !private ["s28CustomDebugStringConvertibleP", "WKWebView"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "allowsBackForwardNavigationGestures"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "load"]
+- !private ["s28CustomDebugStringConvertibleP", "navigationDelegate"]
+- !private ["s28CustomDebugStringConvertibleP", "view"]
+- !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
+- ["s28CustomDebugStringConvertibleP", "webView"]
+- ["s28CustomDebugStringConvertibleP", "webViewWebContentProcessDidTerminate"]
+- !private ["s17CustomReflectableP", "allowsBackForwardNavigationGestures"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "load"]
+- !private ["s17CustomReflectableP", "navigationDelegate"]
+- !private ["s23CustomStringConvertibleP", "URL"]
+- !private ["s23CustomStringConvertibleP", "URLRequest"]
+- !private ["s23CustomStringConvertibleP", "WKWebView"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "allowsBackForwardNavigationGestures"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "load"]
+- !private ["s23CustomStringConvertibleP", "navigationDelegate"]
+- !private ["s23CustomStringConvertibleP", "view"]
+- !private ["s23CustomStringConvertibleP", "viewDidLoad"]
+- ["s23CustomStringConvertibleP", "webView"]
+- ["s23CustomStringConvertibleP", "webViewWebContentProcessDidTerminate"]
+- !private ["Se", "allowsBackForwardNavigationGestures"]
+- !private ["Se", "init"]
+- !private ["Se", "load"]
+- !private ["Se", "navigationDelegate"]
+- !private ["SE", "allowsBackForwardNavigationGestures"]
+- !private ["SE", "init"]
+- !private ["SE", "load"]
+- !private ["SE", "navigationDelegate"]
+- !private ["SQ", "URL"]
+- !private ["SQ", "URLRequest"]
+- !private ["SQ", "WKWebView"]
+- ["SQ", ""]
+- !private ["SQ", "allowsBackForwardNavigationGestures"]
+- !private ["SQ", "init"]
+- !private ["SQ", "load"]
+- !private ["SQ", "navigationDelegate"]
+- !private ["SQ", "view"]
+- !private ["SQ", "viewDidLoad"]
+- ["SQ", "webView"]
+- ["SQ", "webViewWebContentProcessDidTerminate"]
+- !private ["5BUDDI20EventsViewControllerC", "URL"]
+- !private ["5BUDDI20EventsViewControllerC", "URLRequest"]
+- ["5BUDDI20EventsViewControllerC", "WKWebView"]
+- ["5BUDDI20EventsViewControllerC", "deinit"]
+- ["5BUDDI20EventsViewControllerC", "init"]
+- ["5BUDDI20EventsViewControllerC", "loadView"]
+- !private ["5BUDDI20EventsViewControllerC", "view"]
+- ["5BUDDI20EventsViewControllerC", "viewDidLoad"]
+- ["5BUDDI20EventsViewControllerC", "webView"]
+- ["5BUDDI20EventsViewControllerC", "webViewWebContentProcessDidTerminate"]
+- !private ["s23ExpressibleByNilLiteralP", "allowsBackForwardNavigationGestures"]
+- !private ["s23ExpressibleByNilLiteralP", "load"]
+- !private ["s23ExpressibleByNilLiteralP", "navigationDelegate"]
+- !private ["SH", "URL"]
+- !private ["SH", "URLRequest"]
+- !private ["SH", "WKWebView"]
+- ["SH", ""]
+- !private ["SH", "allowsBackForwardNavigationGestures"]
+- !private ["SH", "init"]
+- !private ["SH", "load"]
+- !private ["SH", "navigationDelegate"]
+- !private ["SH", "view"]
+- !private ["SH", "viewDidLoad"]
+- ["SH", "webView"]
+- ["SH", "webViewWebContentProcessDidTerminate"]
+- !private ["So8NSCodingP", "URL"]
+- !private ["So8NSCodingP", "URLRequest"]
+- !private ["So8NSCodingP", "WKWebView"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "allowsBackForwardNavigationGestures"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "load"]
+- !private ["So8NSCodingP", "navigationDelegate"]
+- !private ["So8NSCodingP", "view"]
+- !private ["So8NSCodingP", "viewDidLoad"]
+- ["So8NSCodingP", "webView"]
+- ["So8NSCodingP", "webViewWebContentProcessDidTerminate"]
+- !private ["So26NSExtensionRequestHandlingP", "URL"]
+- !private ["So26NSExtensionRequestHandlingP", "URLRequest"]
+- !private ["So26NSExtensionRequestHandlingP", "WKWebView"]
+- ["So26NSExtensionRequestHandlingP", ""]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "view"]
+- !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
+- ["So26NSExtensionRequestHandlingP", "webView"]
+- ["So26NSExtensionRequestHandlingP", "webViewWebContentProcessDidTerminate"]
+- !private ["So8NSObjectC", "URL"]
+- !private ["So8NSObjectC", "URLRequest"]
+- ["So8NSObjectC", "WKWebView"]
+- !private ["So8NSObjectC", "allowsBackForwardNavigationGestures"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "load"]
+- ["So8NSObjectC", "loadView"]
+- !private ["So8NSObjectC", "navigationDelegate"]
+- !private ["So8NSObjectC", "view"]
+- ["So8NSObjectC", "viewDidLoad"]
+- ["So8NSObjectC", "webView"]
+- ["So8NSObjectC", "webViewWebContentProcessDidTerminate"]
+- !private ["So8NSObjectP", "URL"]
+- !private ["So8NSObjectP", "URLRequest"]
+- !private ["So8NSObjectP", "WKWebView"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "allowsBackForwardNavigationGestures"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "load"]
+- !private ["So8NSObjectP", "navigationDelegate"]
+- !private ["So8NSObjectP", "view"]
+- !private ["So8NSObjectP", "viewDidLoad"]
+- ["So8NSObjectP", "webView"]
+- ["So8NSObjectP", "webViewWebContentProcessDidTerminate"]
+- !private ["Sq", "allowsBackForwardNavigationGestures"]
+- !private ["Sq", "load"]
+- !private ["Sq", "navigationDelegate"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "allowsBackForwardNavigationGestures"]
+- !private ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "load"]
+- !private ["So29UIAccessibilityIdentificationP", "navigationDelegate"]
+- !private ["So12UIAppearanceP", "allowsBackForwardNavigationGestures"]
+- !private ["So12UIAppearanceP", "init"]
+- !private ["So12UIAppearanceP", "load"]
+- !private ["So12UIAppearanceP", "navigationDelegate"]
+- !private ["So21UIAppearanceContainerP", "URL"]
+- !private ["So21UIAppearanceContainerP", "URLRequest"]
+- !private ["So21UIAppearanceContainerP", "WKWebView"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So21UIAppearanceContainerP", "allowsBackForwardNavigationGestures"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "load"]
+- !private ["So21UIAppearanceContainerP", "navigationDelegate"]
+- !private ["So21UIAppearanceContainerP", "view"]
+- !private ["So21UIAppearanceContainerP", "viewDidLoad"]
+- ["So21UIAppearanceContainerP", "webView"]
+- ["So21UIAppearanceContainerP", "webViewWebContentProcessDidTerminate"]
+- !private ["So18UIContentContainerP", "URL"]
+- !private ["So18UIContentContainerP", "URLRequest"]
+- !private ["So18UIContentContainerP", "WKWebView"]
+- ["So18UIContentContainerP", ""]
+- !private ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "view"]
+- !private ["So18UIContentContainerP", "viewDidLoad"]
+- ["So18UIContentContainerP", "webView"]
+- ["So18UIContentContainerP", "webViewWebContentProcessDidTerminate"]
+- !private ["So17UICoordinateSpaceP", "allowsBackForwardNavigationGestures"]
+- !private ["So17UICoordinateSpaceP", "init"]
+- !private ["So17UICoordinateSpaceP", "load"]
+- !private ["So17UICoordinateSpaceP", "navigationDelegate"]
+- !private ["So13UIDynamicItemP", "allowsBackForwardNavigationGestures"]
+- !private ["So13UIDynamicItemP", "init"]
+- !private ["So13UIDynamicItemP", "load"]
+- !private ["So13UIDynamicItemP", "navigationDelegate"]
+- !private ["So18UIFocusEnvironmentP", "URL"]
+- !private ["So18UIFocusEnvironmentP", "URLRequest"]
+- !private ["So18UIFocusEnvironmentP", "WKWebView"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "allowsBackForwardNavigationGestures"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "load"]
+- !private ["So18UIFocusEnvironmentP", "navigationDelegate"]
+- !private ["So18UIFocusEnvironmentP", "view"]
+- !private ["So18UIFocusEnvironmentP", "viewDidLoad"]
+- ["So18UIFocusEnvironmentP", "webView"]
+- ["So18UIFocusEnvironmentP", "webViewWebContentProcessDidTerminate"]
+- !private ["So11UIFocusItemP", "allowsBackForwardNavigationGestures"]
+- !private ["So11UIFocusItemP", "init"]
+- !private ["So11UIFocusItemP", "load"]
+- !private ["So11UIFocusItemP", "navigationDelegate"]
+- !private ["So20UIFocusItemContainerP", "allowsBackForwardNavigationGestures"]
+- !private ["So20UIFocusItemContainerP", "init"]
+- !private ["So20UIFocusItemContainerP", "load"]
+- !private ["So20UIFocusItemContainerP", "navigationDelegate"]
+- !private ["So24UILargeContentViewerItemP", "allowsBackForwardNavigationGestures"]
+- !private ["So24UILargeContentViewerItemP", "init"]
+- !private ["So24UILargeContentViewerItemP", "load"]
+- !private ["So24UILargeContentViewerItemP", "navigationDelegate"]
+- !private ["So30UIPasteConfigurationSupportingP", "URL"]
+- !private ["So30UIPasteConfigurationSupportingP", "URLRequest"]
+- !private ["So30UIPasteConfigurationSupportingP", "WKWebView"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "allowsBackForwardNavigationGestures"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "load"]
+- !private ["So30UIPasteConfigurationSupportingP", "navigationDelegate"]
+- !private ["So30UIPasteConfigurationSupportingP", "view"]
+- !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
+- ["So30UIPasteConfigurationSupportingP", "webView"]
+- ["So30UIPasteConfigurationSupportingP", "webViewWebContentProcessDidTerminate"]
+- !private ["So11UIResponderC", "URL"]
+- !private ["So11UIResponderC", "URLRequest"]
+- ["So11UIResponderC", "WKWebView"]
+- !private ["So11UIResponderC", "allowsBackForwardNavigationGestures"]
+- ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "load"]
+- ["So11UIResponderC", "loadView"]
+- !private ["So11UIResponderC", "navigationDelegate"]
+- !private ["So11UIResponderC", "view"]
+- ["So11UIResponderC", "viewDidLoad"]
+- ["So11UIResponderC", "webView"]
+- ["So11UIResponderC", "webViewWebContentProcessDidTerminate"]
+- !private ["So30UIResponderStandardEditActionsP", "URL"]
+- !private ["So30UIResponderStandardEditActionsP", "URLRequest"]
+- !private ["So30UIResponderStandardEditActionsP", "WKWebView"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So30UIResponderStandardEditActionsP", "allowsBackForwardNavigationGestures"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "load"]
+- !private ["So30UIResponderStandardEditActionsP", "navigationDelegate"]
+- !private ["So30UIResponderStandardEditActionsP", "view"]
+- !private ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
+- ["So30UIResponderStandardEditActionsP", "webView"]
+- ["So30UIResponderStandardEditActionsP", "webViewWebContentProcessDidTerminate"]
+- !private ["So16UIStateRestoringP", "URL"]
+- !private ["So16UIStateRestoringP", "URLRequest"]
+- !private ["So16UIStateRestoringP", "WKWebView"]
+- ["So16UIStateRestoringP", ""]
+- !private ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "view"]
+- !private ["So16UIStateRestoringP", "viewDidLoad"]
+- ["So16UIStateRestoringP", "webView"]
+- ["So16UIStateRestoringP", "webViewWebContentProcessDidTerminate"]
+- !private ["So18UITraitEnvironmentP", "URL"]
+- !private ["So18UITraitEnvironmentP", "URLRequest"]
+- !private ["So18UITraitEnvironmentP", "WKWebView"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So18UITraitEnvironmentP", "allowsBackForwardNavigationGestures"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "load"]
+- !private ["So18UITraitEnvironmentP", "navigationDelegate"]
+- !private ["So18UITraitEnvironmentP", "view"]
+- !private ["So18UITraitEnvironmentP", "viewDidLoad"]
+- ["So18UITraitEnvironmentP", "webView"]
+- ["So18UITraitEnvironmentP", "webViewWebContentProcessDidTerminate"]
+- !private ["So23UIUserActivityRestoringP", "URL"]
+- !private ["So23UIUserActivityRestoringP", "URLRequest"]
+- !private ["So23UIUserActivityRestoringP", "WKWebView"]
+- ["So23UIUserActivityRestoringP", ""]
+- !private ["So23UIUserActivityRestoringP", "allowsBackForwardNavigationGestures"]
+- !private ["So23UIUserActivityRestoringP", "init"]
+- !private ["So23UIUserActivityRestoringP", "load"]
+- !private ["So23UIUserActivityRestoringP", "navigationDelegate"]
+- !private ["So23UIUserActivityRestoringP", "view"]
+- !private ["So23UIUserActivityRestoringP", "viewDidLoad"]
+- ["So23UIUserActivityRestoringP", "webView"]
+- ["So23UIUserActivityRestoringP", "webViewWebContentProcessDidTerminate"]
+- !private ["So6UIViewC", "allowsBackForwardNavigationGestures"]
+- !private ["So6UIViewC", "init"]
+- !private ["So6UIViewC", "load"]
+- !private ["So6UIViewC", "navigationDelegate"]
+- !private ["So16UIViewControllerC", "URL"]
+- !private ["So16UIViewControllerC", "URLRequest"]
+- ["So16UIViewControllerC", "WKWebView"]
+- ["So16UIViewControllerC", ""]
+- ["So16UIViewControllerC", "init"]
+- ["So16UIViewControllerC", "loadView"]
+- !private ["So16UIViewControllerC", "view"]
+- ["So16UIViewControllerC", "viewDidLoad"]
+- ["So16UIViewControllerC", "webView"]
+- ["So16UIViewControllerC", "webViewWebContentProcessDidTerminate"]
+- !private ["10Foundation3URLV", "init"]
+- !private ["10Foundation10URLRequestV", "init"]
+- !private ["So20WKNavigationDelegateP", "URL"]
+- !private ["So20WKNavigationDelegateP", "URLRequest"]
+- !private ["So20WKNavigationDelegateP", "WKWebView"]
+- ["So20WKNavigationDelegateP", ""]
+- !private ["So20WKNavigationDelegateP", "view"]
+- ["So20WKNavigationDelegateP", "webView"]
+- ["So20WKNavigationDelegateP", "webViewWebContentProcessDidTerminate"]
+- !private ["So9WKWebViewC", "allowsBackForwardNavigationGestures"]
+- !private ["So9WKWebViewC", "init"]
+- !private ["So9WKWebViewC", "load"]
+- !private ["So9WKWebViewC", "navigationDelegate"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "URL"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "URLRequest"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "WKWebView"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "allowsBackForwardNavigationGestures"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "load"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "navigationDelegate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "view"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "webView"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "webViewWebContentProcessDidTerminate"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "URL"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "URLRequest"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "WKWebView"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "allowsBackForwardNavigationGestures"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "load"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "navigationDelegate"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "view"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "viewDidLoad"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "webView"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "webViewWebContentProcessDidTerminate"]
+- !private ["s21_ObjectiveCBridgeableP", "allowsBackForwardNavigationGestures"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "load"]
+- !private ["s21_ObjectiveCBridgeableP", "navigationDelegate"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "allowsBackForwardNavigationGestures"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "init"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "load"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "navigationDelegate"]
+depends-nominal:
+- !private "So15CALayerDelegateP"
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SE"
+- "SQ"
+- "5BUDDI20EventsViewControllerC"
+- !private "s23ExpressibleByNilLiteralP"
+- "SH"
+- "So8NSCodingP"
+- "So26NSExtensionRequestHandlingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "Sq"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- "So18UIContentContainerP"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So20UIFocusItemContainerP"
+- !private "So24UILargeContentViewerItemP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So16UIStateRestoringP"
+- "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
+- !private "So6UIViewC"
+- "So16UIViewControllerC"
+- !private "10Foundation3URLV"
+- !private "10Foundation10URLRequestV"
+- "So20WKNavigationDelegateP"
+- !private "So9WKWebViewC"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s34_ExpressibleByFileReferenceLiteralP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s38__DefaultCustomPlaygroundQuickLookableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/ObjectiveC.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreMIDI.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreMedia.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreData.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/simd.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreImage.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/QuartzCore.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Dispatch.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Metal.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Darwin.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreLocation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Foundation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/AVFoundation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreFoundation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreAudio.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreGraphics.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Swift.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/UIKit.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/MapKit.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/SwiftOnoneSupport.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Combine.framework/Modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreMIDI.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreMedia.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreData.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/simd.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreLocation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/AVFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreAudio.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/MapKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/ApiAI/ApiAI.framework/Headers/ApiAI.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/ApiAI/ApiAI.framework/Headers/ApiAI-umbrella.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FirebaseCore-umbrella.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FirebaseAuth-umbrella.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/ApiAI/ApiAI.framework/Headers/AIResponseMetadata.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRUserMetadata.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthAPNSTokenType.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FirebaseCore.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/Pods/Firebase/CoreOnly/Sources/Firebase.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/ApiAI/ApiAI.framework/Headers/AIResponse.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/ApiAI/ApiAI.framework/Headers/AIRequest+AIMappedResponse.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthUIDelegate.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuth.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FirebaseAuth.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIROAuthCredential.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthCredential.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRPhoneAuthCredential.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRLoggerLevel.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FirebaseAuthVersion.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/ApiAI/ApiAI.framework/Headers/AIAudioFileConvertOperation.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/ApiAI/ApiAI.framework/Headers/AIConfiguration.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRConfiguration.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/ApiAI/ApiAI.framework/Headers/AIDefaultConfiguration.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/ApiAI/ApiAI.framework/Headers/AIVoiceRequestButton.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRUserInfo.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAdditionalUserInfo.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRApp.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIROAuthProvider.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRGitHubAuthProvider.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRFederatedAuthProvider.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRGoogleAuthProvider.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRPhoneAuthProvider.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRFacebookAuthProvider.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIREmailAuthProvider.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRGameCenterAuthProvider.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRTwitterAuthProvider.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRUser.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/ApiAI/ApiAI.framework/Headers/AIResponseParameter.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/ApiAI/ApiAI.framework/Headers/AINullabilityDefines.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRActionCodeSettings.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthSettings.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIROptions.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthErrors.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/ApiAI/ApiAI.framework/Headers/AIResponseConstants.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/ApiAI/ApiAI.framework/Headers/AIResponseStatus.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthDataResult.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/ApiAI/ApiAI.framework/Headers/AIResponseResult.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthTokenResult.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/ApiAI/ApiAI.framework/Headers/AIResponseFulfillment.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/ApiAI/ApiAI.framework/Headers/AIEvent.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/ApiAI/ApiAI.framework/Headers/AIRequest.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/ApiAI/ApiAI.framework/Headers/AIVoiceRequest.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/ApiAI/ApiAI.framework/Headers/AIVoiceFileRequest.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/ApiAI/ApiAI.framework/Headers/AIOriginalRequest.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/ApiAI/ApiAI.framework/Headers/AIUserEntitiesRequest.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/ApiAI/ApiAI.framework/Headers/AIEventRequest.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/ApiAI/ApiAI.framework/Headers/AITextRequest.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/ApiAI/ApiAI.framework/Headers/AIQueryRequest.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/ApiAI/ApiAI.framework/Headers/AIResponseContext.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/ApiAI/ApiAI.framework/Headers/AIRequestContext.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/ApiAI/ApiAI.framework/Headers/AIRequestEntry.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/ApiAI/ApiAI.framework/Headers/AIUserEntity.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/ApiAI/ApiAI.framework/Headers/AIRequestEntity.h"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/Pods/Firebase/CoreOnly/Sources/module.modulemap"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/ApiAI/ApiAI.framework/Modules/module.modulemap"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Modules/module.modulemap"
+- "/Users/isabellahochschild/Documents/XCODE/BUDDI/DerivedData/BUDDI/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MessageUI.framework/Headers/MessageUI.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreAudioTypes.framework/Headers/CoreAudioTypes.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/WebKit.framework/Headers/WebKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/EventKit.framework/Headers/EventKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "9fef9343d776ae0e0175b33e20df67b2"
